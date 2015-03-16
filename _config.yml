@@ -6,10 +6,10 @@
 name: Ant Beck
 
 # Short bio or description (displayed in the header)
-description: Research Fellow (Nottingham University)
+description: Research Fellow (Nottingham University), Director (GeoLytics Ltd.)
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+avatar: https://avatars3.githubusercontent.com/u/342277?v=3&s=460
 
 #
 # Flags below are optional
@@ -23,12 +23,13 @@ footer-links:
   flickr:
   github: AntArch
   instagram:
-  linkedin:
+  linkedin:uk.linkedin.com/in/antbeck
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: AntArch
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
+  orcid: http://orcid.org/0000-0002-2991-811X
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
