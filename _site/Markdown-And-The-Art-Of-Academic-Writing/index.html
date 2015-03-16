@@ -1,0 +1,300 @@
+<p>Date: 2014-01-08 14:10
+Title: Scholarly Markdown and the art of academic writing (or how to put citations into markdown)
+Category: Markdown, Publication, Academic, Citations, Collaboration
+Tags: Markdown, Publication, Academic, Citations, Collaboration</p>
+
+<h1>URLs used:</h1>
+
+<ul>
+<li><a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown</a></li>
+<li><a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">https://en.wikibooks.org/wiki/LaTeX/Mathematics</a></li>
+<li><a href="https://hackage.haskell.org/package/pandoc-citeproc">https://hackage.haskell.org/package/pandoc-citeproc</a></li>
+<li><a href="http://blog.martinfenner.org/2013/06/17/what-is-scholarly-markdown/">http://blog.martinfenner.org/2013/06/17/what-is-scholarly-markdown/</a></li>
+<li><a href="http://blog.yoavram.com/citations-in-markdown-using-pandoc/">http://blog.yoavram.com/citations-in-markdown-using-pandoc/</a></li>
+<li><a href="http://2012-2013.chriskrycho.com/web/markdown-and-academic-writing/">http://2012-2013.chriskrycho.com/web/markdown-and-academic-writing/</a></li>
+<li><a href="http://daringfireball.net/projects/markdown/">http://daringfireball.net/projects/markdown/</a></li>
+<li><a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown</a></li>
+<li><a href="http://hackage.haskell.org/package/pandoc-citeproc">http://hackage.haskell.org/package/pandoc-citeproc</a></li>
+<li><a href="http://www.surefoss.org/publishing-publizieren/all-you-need-is-text-markdown-via-pandoc-for-academia/">http://www.surefoss.org/publishing-publizieren/all-you-need-is-text-markdown-via-pandoc-for-academia/</a></li>
+<li><a href="http://blog.martinfenner.org/about.html">http://blog.martinfenner.org/about.html</a></li>
+<li><a href="https://github.com/karthik/markdown_science">https://github.com/karthik/markdown_science</a></li>
+</ul>
+
+<h1>Discussion</h1>
+
+<p>I&#39;ve been getting into <a href="http://daringfireball.net/projects/markdown/">markdown</a> as a generic writing tool. This blog uses markdown and I&#39;ve been using markdown within Ipython and the <a href="http://nbviewer.ipython.org/gist/AntArch/8315767">github hosted publically shared derivatives</a>. Basically it&#39;s quite nice. It&#39;s a simple text format that&#39;s a bit more readable than latex (which is something I&#39;ve been meaning to get around to for years but have never really sorted out). The problem with latex is that not many people in my domain (archaeology and geography) actually use it. Hence, as I want to use tools for dynamic collaboration - latex is quite simply a battle that is unlikely to be won as I won&#39;t be able to get everyone to convert to using it.</p>
+
+<p>Markdown is simpler.  The readable text element means that you can author documents using realtime collaboration environments like <strong>Google Docs</strong> or <strong>etherpad</strong>. </p>
+
+<p>However, in order to be useful in a scholarly setting markdown also needs to employ other functionality, most notably referencing. This has been recognised by the <a href="http://blog.martinfenner.org/2013/06/17/what-is-scholarly-markdown/">Scholarly Markdown Group</a> who have set up a <a href="https://github.com/karthik/markdown_science">Markdown Science github repository</a> and the the community who&#39;ve built extensions for markdown. One of the most complete extensions is <a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">Pandocs Markdown</a>.</p>
+
+<h1>Pandoc</h1>
+
+<p>Pandoc is a Haskell library for converting from one markup format to another, and a command-line tool that uses this library. It can read:</p>
+
+<ul>
+<li>markdown </li>
+<li>Textile</li>
+<li>reStructuredText</li>
+<li>HTML</li>
+<li>LaTeX</li>
+<li>MediaWiki markup</li>
+<li>Haddock markup</li>
+<li>OPML</li>
+<li>DocBook; </li>
+</ul>
+
+<p>and it can write:</p>
+
+<ul>
+<li>plain text</li>
+<li>markdown</li>
+<li>reStructuredText</li>
+<li>XHTML</li>
+<li>HTML 5</li>
+<li>LaTeX (including beamer slide shows)</li>
+<li>ConTeXt</li>
+<li>RTF</li>
+<li>OPML</li>
+<li>DocBook</li>
+<li>OpenDocument</li>
+<li>ODT</li>
+<li>Word docx</li>
+<li>GNU Texinfo</li>
+<li>MediaWiki markup</li>
+<li>EPUB (v2 or v3)</li>
+<li>FictionBook2</li>
+<li>Textile</li>
+<li>groff man pages</li>
+<li>Emacs Org-Mode</li>
+<li>AsciiDoc and Slidy</li>
+<li>Slideous</li>
+<li>DZSlides</li>
+<li>reveal.js or S5 HTML slide shows </li>
+</ul>
+
+<p>It can also produce PDF output on systems where LaTeX is installed.</p>
+
+<h1><a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">Pandocs Markdown</a></h1>
+
+<p><a href="http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown">Pandocs Markdown</a> contains extensions to markdown which can be interpretted by the pandocs document conversion framework. </p>
+
+<h1>My markdown usage conventions</h1>
+
+<p>Here are my useage conventions. Most of these will be generic and will work whether it&#39;s in strict markdown or in pandocs markdown. Where there are signicant differences they will be noted.</p>
+
+<h2>Headings</h2>
+
+<p>I use the # to determine heading and levels. The number of #&#39;s determines the level of heading hierarchy. There is a blank </p>
+
+<h1>Inline formatting</h1>
+
+<h2>Lists</h2>
+
+<p>Ordered and unordered lists</p>
+
+<h3>Unordered lists</h3>
+
+<p>Are basically bullet points. Each bullet point is denoted by an asterisk followed by a space at the beginning of a line &#39;* &#39;. The first point in a list must be preceded by a blank line. Indented bullets are prefixed by tabs to represent their indent level. For example:</p>
+
+<ul>
+<li>A single asterisk
+
+<ul>
+<li>An asterisk preceeded by a tab
+
+<ul>
+<li>An asterisk preceeded by two tab</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h3>Ordered lists</h3>
+
+<p>Ordered lists are where numbers are used instead of bullets. Each bullet point is denoted by a number (note: it can be any number), followed by a period and a space at the beginning of a line &#39;* &#39;.</p>
+
+<ol>
+<li>A single number (&#39;9&#39;)</li>
+<li>A single number (&#39;9&#39;)
+
+<ol>
+<li>A single number (&#39;9&#39;) preceeded by a tab
+
+<ol>
+<li>A single number (&#39;8&#39;) preceeded by a tab</li>
+<li>A single number (&#39;7&#39;) preceeded by a tab</li>
+</ol></li>
+<li>A single number (&#39;9&#39;) preceeded by a tab</li>
+</ol></li>
+</ol>
+
+<h3>Fancy lists (pandocs only)</h3>
+
+<p>Unlike standard markdown, Pandoc allows ordered list items to be marked with uppercase and lowercase letters and roman numerals, in addition to arabic numerals. List markers may be enclosed in parentheses or followed by a single right-parentheses or period. They must be separated from the text that follows by at least one space, and, if the list marker is a capital letter with a period, by at least two spaces.</p>
+
+<p>The fancy_lists extension also allows ‘#’ to be used as an ordered list marker in place of a numeral:</p>
+
+<h1>. one</h1>
+
+<h1>. two</h1>
+
+<h2>Links and references (not including citations)</h2>
+
+<h3>Bare urls</h3>
+
+<p>Just wrap the URL with a smaller than (&lt;) and greater than (&gt;) signs.</p>
+
+<h3>Footnotes</h3>
+
+<h2>Illustrations and captions (captions are Pandocs only)</h2>
+
+<p>Pandocs</p>
+
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Evidence_Based_Decision_Making_using_Open_approaches.svg/1052px-Evidence_Based_Decision_Making_using_Open_approaches.svg.png" alt="Here is the caption"></p>
+
+<h2>Tables</h2>
+
+<p>I&#39;m not sure if I would want to handcraft tables. My gut feeling is that tables are data and should come from data files</p>
+
+<h2>Symbolic maths (pandocs only)</h2>
+
+<p>Mathematical notation is enclosed in dollar signs $. There should be no space after the first dollar sign and no space before the last dollar sign (this is so the parser knows the enclosed snippet is to be converted to maths symbols rather than two numbers expressed in US $)</p>
+
+<p>There is a free online <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">book on mathtex</a></p>
+
+<p>$(x-y)/(y+z)$</p>
+
+<p>$\forall x \in X, \quad \exists y \leq \epsilon$</p>
+
+<h3>Symbols</h3>
+
+<p>$\forall x \in X, \quad \exists y \leq \epsilon$</p>
+
+<h3>Greek letters</h3>
+
+<p>$\alpha, A, \beta, B, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \Phi$</p>
+
+<h3>Operators</h3>
+
+<p>$\cos (2\theta) = \cos^2 \theta - \sin^2 \theta$</p>
+
+<p>$\lim_{x \to \infty} \exp(-x) = 0$</p>
+
+<p>$$\lim_{x \to \infty} \exp(-x) = 0$$</p>
+
+<p>$a \bmod b$</p>
+
+<p>$x \equiv a \pmod b$</p>
+
+<h3>Powers and Indices</h3>
+
+<p>$k<em>{n+1} = n^2 + k</em>n^2 - k_{n-1}$</p>
+
+<p>$\frac{n!}{k!(n-k)!} = {n \choose k}$</p>
+
+<p>$\frac{\frac{1}{x}+\frac{1}{y}}{y-z}$</p>
+
+<p>${n! \over k!(n-k)!} = {n \choose k}$</p>
+
+<p>$^3/_7$</p>
+
+<h3>Roots</h3>
+
+<p>$\sqrt{\frac{a}{b}}$</p>
+
+<p>$\sqrt[n]{1+x+x^2+x^3+\ldots}$</p>
+
+<h3>sums and integrals</h3>
+
+<p>$\sum<em>{i=1}^{10} t</em>i$
+$$\sum<em>{i=1}^{10} t</em>i$$</p>
+
+<p>$\int_0^\infty \mathrm{e}^{-x}\,\mathrm{d}x$</p>
+
+<h3>Brackets, braces and delimiters</h3>
+
+<p>$( a ), [ b ], { c }, | d |, | e |, \langle f \rangle, \lfloor g \rfloor, \lceil h \rceil, \ulcorner i \urcorner$</p>
+
+<h3>Matrices and arrays</h3>
+
+<p>$\begin{matrix}
+  a &amp; b &amp; c \
+  d &amp; e &amp; f \
+  g &amp; h &amp; i
+ \end{matrix}$</p>
+
+<h2><a href="http://johnmacfarlane.net/pandoc/README.html#citations">References - Pandoc</a></h2>
+
+<p>References are the &#39;killer app&#39; in order to make markdown a viable scholarly option. <a href="http://johnmacfarlane.net/pandoc/README.html#citations">References in Pandoc</a> require a bibliographic reference source (either a link to a refrence file or embedded as indiviual references - both in the YAML section).</p>
+
+<p>I haven&#39;t been able to get this to work so far :-(</p>
+
+<p>Citations go inside square brackets and are separated by semicolons. Each citation must have a key, composed of ‘@’ + the citation identifier from the database, and may optionally have a prefix, a locator, and a suffix. Here are some examples:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Blah blah [see @doe99, pp. 33-35; also @smith04, ch. 1].
+Blah blah [@doe99, pp. 33-35, 38-39 and *passim*].
+Blah blah [@smith04; @doe99].
+</code></pre></div>
+<p>A minus sign (-) before the @ will suppress mention of the author in the citation. This can be useful when the author is already mentioned in the text:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">Smith says blah [-@smith04].
+</code></pre></div>
+<p>You can also write an in-text citation, as follows:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">@smith04 says blah.
+@smith04 [p. 33] says blah.
+</code></pre></div>
+<p>Citations are created during parsing using the package <a href="https://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a>. Using an external filter, pandoc-citeproc, pandoc can automatically generate citations and a bibliography in a number of styles. Basic usage is</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pandoc --filter pandoc-citeproc myinput.txt
+</code></pre></div>
+<p>If the style calls for a list of works cited, it will be placed at the end of the document. Normally, you will want to end your document with an appropriate header:</p>
+
+<p>last paragraph...</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text"># References
+</code></pre></div>
+<p>The bibliography will be inserted after this header.</p>
+
+<h2>Open Science extensions</h2>
+
+<p>What about ipython? Ipython notebook is a good way of publically sharing code with text markup as <a href="http://nbviewer.ipython.org/gist/AntArch/8315767">I&#39;ve shown</a>. It is also a good way to pick up typos, errors and bugs and to share well documented exemplar code sequences. However, it&#39;s not a good way of collaboratively writing. In addition the Github for Markdown (GFM) markdown extension does not handle referencing. </p>
+
+<h3>Data</h3>
+
+<p>You can use <a href="http://yihui.name/knitr/">knitr</a> for R. <a href="https://github.com/articlemetrics/plosOpenR/blob/master/barPlotSummary.Rmd">Here is an example</a>
+[reference][test]</p>
+
+<p>Sweave</p>
+
+<p>Pweave</p>
+
+<h3>Code</h3>
+
+<p>What about syntax (github for markdown provides syntax flags)</p>
+
+<h3>Metadata - Pandocs markdown</h3>
+
+<p>A YAML metadata block is a valid YAML object, delimited by a line of three hyphens (---) at the top and a line of three hyphens (---) or three dots (...) at the bottom. A YAML metadata block may occur anywhere in the document, but if it is not at the beginning, it must be preceded by a blank line.</p>
+
+<p>Metadata will be taken from the fields of the YAML object and added to any existing document metadata. Metadata can contain lists and objects (nested arbitrarily), but all string scalars will be interpreted as markdown. Fields with names ending in an underscore will be ignored by pandoc. (They may be given a role by external processors.)</p>
+
+<p>A document may contain multiple metadata blocks. The metadata fields will be combined through a left-biased union: if two metadata blocks attempt to set the same field, the value from the first block will be taken.</p>
+
+<p>Note that YAML escaping rules must be followed. Thus, for example, if a title contains a colon, it must be quoted. The pipe character (|) can be used to begin an indented block that will be interpreted literally, without need for escaping. This form is necessary when the field contains blank lines:</p>
+
+<hr>
+
+<p>title:  &#39;This is the title: it contains a colon&#39;
+author:
+- name: Author One
+  affiliation: University of Somewhere
+- name: Author Two
+  affiliation: University of Nowhere
+tags: [nothing, nothingness]
+abstract: |
+  This is the abstract.</p>
+
+<p>It consists of two paragraphs.
+...</p>
+
+<h1>Page layout in markdown</h1>
+
+<p>OK..... I&#39;ve probably been a bit hard on Latex. Latex allows real control on pagination and output. However, to be brutally frank.... I don&#39;t care about that when I&#39;m creating my document. On a collaborative paper I&#39;m much more interested in the ability to manage content, words, references, footnotes, hierachies (heading 1....), data and images. Pagination is something the editor normally has to worry about!</p>
+
+<p>That said, the <a href="http://johnmacfarlane.net/pandoc/">pandoc</a> package handles document conversion beautifully. </p>

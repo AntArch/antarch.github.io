@@ -1,0 +1,140 @@
+<p>Date: 2014-01-06 18:00
+Title: Setting up a python environment in Arch Linux - advanced
+Category: Python, Arch
+Tags: Python, Arch, Set-up, virtual environment</p>
+
+<h1>Aims:</h1>
+
+<p>The python environments then need populating with libraries etc. This is the place to get some standard setups</p>
+
+<h1>URLs used:</h1>
+
+<ul>
+<li><a href="http://www.thisisthegreenroom.com/2011/installing-python-numpy-scipy-matplotlib-and-ipython-on-lion/">http://www.thisisthegreenroom.com/2011/installing-python-numpy-scipy-matplotlib-and-ipython-on-lion/</a></li>
+</ul>
+
+<h1>TL;DR</h1>
+
+<ul>
+<li>use conventions and regular naming for your virtual environments
+
+<ul>
+<li>prefixes
+
+<ul>
+<li>p2_ for python2</li>
+<li>p3_ for python3</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h1>Useful things:</h1>
+
+<p>List the virtual environments</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">lsvirtualenv
+</code></pre></div>
+<p>Work within a specific virtual environment</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">workon &lt;virtualenvironment name&gt; #Use a specific virtual environment
+</code></pre></div>
+<p>Stop using a specific virtual environment</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">deactivate #stop using the current virtual environment
+</code></pre></div>
+<p>List what version of python and which libraries are installed</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">python -V
+help(&#39;modules&#39;)
+pip freeze
+#for all currently used modules (useful if looking to re-build a bespoke environment)
+import sys as s
+print s.modules.keys()
+</code></pre></div>
+<h1>Installing python library schemes</h1>
+<div class="highlight"><pre><code class="language-text" data-lang="text">workon &lt;virtualenvironment name&gt; #see list using lsvirtualenv
+pip install &lt;library name&gt; #copy and paste library schemes from below
+deactivate
+</code></pre></div>
+<p>I recently moved back to ubuntu (or mint at least) and not everything installed properly. Foe GDAL the following helped:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">export CPLUS_INCLUDE_PATH=/usr/include/gdal
+export C_INCLUDE_PATH=/usr/include/gdal
+</code></pre></div>
+<h1>Python library schemes</h1>
+
+<p>These workin both Python 2 and 3. Specific python 2 dependencies are noted.</p>
+
+<h2>For Python2 always include</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install future
+</code></pre></div>
+<p>Amongst other things this provides consitency with the print statement for python3 using:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">from __future__ import print_function
+</code></pre></div>
+<h2>Pre-requisites</h2>
+
+<p>You&#39;ll need a fortran compiler for scipy</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo pacman -S gcc-fortan
+</code></pre></div>
+<h2>Data Science</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install numpy
+pip install scipy
+pip install pandas
+pip install matplotlib
+pip install tornado
+pip install pyzmq
+pip install ipython[all]
+</code></pre></div>
+<p>Firing up ipython-notebook</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">ipython notebook --pylab=inline #remember to check the port number if, like me, you automatically start up a default ipython-notebook instance
+</code></pre></div>
+<h2>Stats</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install patsy
+pip install statsmodels # [not working in python3](http://stackoverflow.com/questions/23343484/python-3-statsmodels)
+pip install sympy
+</code></pre></div>
+<h2>Semantic Web</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install rdflib
+pip install SPARQLWrapper
+pip install FuXi #not working - google this
+</code></pre></div>
+<h2>Code improvement</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install pyflakes
+pip install pylint
+pip install rope
+</code></pre></div>
+<h2>Connecting to datasources</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install psycopg2 #postgres
+pip install urllib3 #import data from URLs
+</code></pre></div>
+<h2>Generically useful libraries</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install datetime
+pip install simplejson
+pip install zipfile # not installing in python 2 or 3
+</code></pre></div>
+<h2>Geo</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install folium
+pip install gdal
+pip install pyproj #projection and reprojection library
+    pip install basemap  # not installing in python 2 or 3 try: [compiling by hand](https://github.com/matplotlib/basemap)
+    pip install pyshp
+    pip install geojson
+pip install pyproj basemap gdal shapely fiona
+pip install Descartes geoJSON psycopg2 SQLAlchemy
+[Cartopy needs compiling](https://github.com/SciTools/cartopy)
+</code></pre></div>
+<h2>Computer vision</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install pil # not installing in python 2 or 3 TRY: pip install --allow-external pil --allow-unverified pil pil
+</code></pre></div>
+<h2>Visualisation</h2>
+
+<p>This is mainly to play about with bokeh. The dependencies for this are, unfortunately, mixed.</p>
+
+<p>Had trouble installing bokeh. Bottom this out later</p>
+
+<h3>Dependencies</h3>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install flask Redis Requests gevent gevent-websocket
+pip install bokeh
+</code></pre></div>
+<h2>DataFormats</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install netCDF4
+pip install pyyaml
+</code></pre></div>
+<h1>Datbase querying</h1>
+<div class="highlight"><pre><code class="language-text" data-lang="text">pip install sqlalchemy
+</code></pre></div>

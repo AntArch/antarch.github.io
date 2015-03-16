@@ -1,0 +1,49 @@
+<p>Date: 2014-01-07 17:00
+Title: Setting up a web2py in a virtual environment Arch Linux
+Category: Python, Arch
+Tags: Python, Arch, Set-up, virtual environment, web2py</p>
+
+<h1>Aims:</h1>
+
+<p>Setting up a web2py in a virtual environment Arch Linux</p>
+
+<h1>URLs used:</h1>
+
+<ul>
+<li><a href="http://www.web2pyslices.com/slice/show/1464/setting-up-web2py-in-a-virtual-environment">http://www.web2pyslices.com/slice/show/1464/setting-up-web2py-in-a-virtual-environment</a></li>
+</ul>
+
+<h1>TL;DR</h1>
+
+<ul>
+<li>pre-requisites
+
+<ul>
+<li>install mercurial
+
+<ul>
+<li>so do this in python 2.7</li>
+</ul></li>
+<li>A cloned virtual env</li>
+</ul></li>
+<li>Navigate into your virtual environment
+
+<ul>
+<li>clone web2py using mercurial</li>
+<li>start web2py</li>
+</ul></li>
+</ul>
+
+<h1>Code</h1>
+
+<h2>pre-requisites</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">cpvirtualenv p2_generic p2_rsr
+workon p2_rsr
+pip install mercurial
+</code></pre></div>
+<h2>implementation</h2>
+<div class="highlight"><pre><code class="language-text" data-lang="text">workon p2_rsr
+cd .virtualenvs/p2_rsr #move to virtualenv directory
+hg clone https://code.google.com/p/web2py/ web2py #clone web2py in this directory
+./bin/python ./web2py/web2py.py #launch web2py
+</code></pre></div>

@@ -1,0 +1,195 @@
+<p>Date: 2014-05-12 13:00
+Title: Oracle joins and ABP
+Category: IT, Oracle, Joins
+Tags: IT, Oracle, Joins</p>
+
+<h1>Metadata</h1>
+
+<p>This document is formatted using MarkDown</p>
+
+<p>This work was done by Anthony Beck, <a href="http://orcid.org/0000-0002-2991-811X">OrcID: 0000-0002-2991-811X</a>.</p>
+
+<p>Part of the series of <em>hating Oracle but having to work with it</em></p>
+
+<h1>Cross joins</h1>
+
+<p>Essentially the dot product. </p>
+
+<p>I need to create a cross join to see what combination of products I have based on tables in an Oracle Schema.</p>
+
+<p>Currently I want to compare all things which are prefixed as </p>
+
+<ul>
+<li>BUILDINGPOLYGON_</li>
+<li>ROADNETWORK_</li>
+</ul>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS1</span><span class="p">,</span> 
+        <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS2</span> 
+    <span class="k">from</span> 
+        <span class="n">user_tables</span> <span class="n">a</span> 
+    <span class="k">CROSS</span> <span class="k">JOIN</span> 
+        <span class="n">user_tables</span> <span class="n">b</span>
+    <span class="k">where</span> 
+        <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;BUILDINGPOLYGON_%&#39;</span>
+        <span class="k">AND</span> <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span>
+        <span class="k">AND</span> <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;ROADNETWORK_%&#39;</span>
+        <span class="k">AND</span> <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span><span class="p">;</span>
+</code></pre></div>
+<p>If I add in new address elements I may want to add in an extra component:</p>
+
+<ul>
+<li>ADDRESSPOINT_</li>
+<li>BUILDINGPOLYGON_</li>
+<li>ROADNETWORK_</li>
+</ul>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS1</span><span class="p">,</span> 
+        <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS2</span><span class="p">,</span> 
+        <span class="k">c</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS3</span>
+    <span class="k">from</span> 
+        <span class="n">user_tables</span> <span class="n">a</span> 
+    <span class="k">CROSS</span> <span class="k">JOIN</span> 
+        <span class="n">user_tables</span> <span class="n">b</span> 
+    <span class="k">CROSS</span> <span class="k">JOIN</span> 
+        <span class="n">user_tables</span> <span class="k">c</span>
+    <span class="k">where</span> 
+        <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;ADDRESSPOINT_%&#39;</span>
+        <span class="k">AND</span> <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span>
+        <span class="k">AND</span> <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;BUILDINGPOLYGON_%&#39;</span>
+        <span class="k">AND</span> <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span>
+        <span class="k">and</span> <span class="k">c</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;ROADNETWORK_%&#39;</span>
+        <span class="k">AND</span> <span class="k">c</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span><span class="p">;</span>
+</code></pre></div><div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS1</span><span class="p">,</span> 
+        <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS2</span><span class="p">,</span> 
+        <span class="k">c</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">as</span> <span class="n">CLASS3</span>
+    <span class="k">from</span> 
+        <span class="n">user_tables</span> <span class="n">a</span> 
+        <span class="k">CROSS</span> <span class="k">JOIN</span> <span class="n">user_tables</span> <span class="n">b</span> 
+        <span class="k">CROSS</span> <span class="k">JOIN</span> <span class="n">user_tables</span> <span class="k">c</span>
+    <span class="k">where</span> 
+        <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;BLD_PLY_%&#39;</span>
+        <span class="k">AND</span> <span class="n">a</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span>
+        <span class="k">AND</span> <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;ROD_NET_%&#39;</span>
+        <span class="k">AND</span> <span class="n">b</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span>
+        <span class="k">and</span> <span class="k">c</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">LIKE</span> <span class="s1">&#39;ADD_CNT_%&#39;</span>
+        <span class="k">AND</span> <span class="k">c</span><span class="p">.</span><span class="k">TABLE_NAME</span> <span class="k">NOT</span> <span class="k">LIKE</span> <span class="s1">&#39;%_O&#39;</span><span class="p">;</span>
+</code></pre></div>
+<p>This means I can produce a table, <em>METADATA_CLASSPAIR</em> with 3 tuples:</p>
+
+<p>CLASS<em>SOURCE|CLASS</em>NAME
+----|----
+BUILDING SOURCE|CLASS1
+ROADNETWORK_SOURCE|CLASS2
+ADDRESS SOURCE|CLASS3</p>
+
+<p>This table is used when calling RadiusStudio. By doing it like this I can essentially call a template Radius Studio action and iterate directly over my CROSS JOIN rows. This means everything is generic.</p>
+
+<h1>ABP in the ABP schema</h1>
+
+<p>It looks like the ingest sequence for ABP embeds the geomtry as 81989. 81989 is an old oracle name for OSGB projection (srid 27700)</p>
+
+<p>To fix this I did the following:</p>
+
+<ul>
+<li>drop the index</li>
+<li>update ABPREM<em>BLPU p set p.geometry.sdo</em>srid=27700;</li>
+<li>COMMIT;</li>
+<li>Recreate the index</li>
+</ul>
+
+<h1>ABP in the postaldeliveryinput schema</h1>
+
+<ul>
+<li>Radius Studio converts the UPRN (number) to a string (either natively or using the built in function) as an exponential string</li>
+</ul>
+
+<h1>Nearest Neighbour</h1>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">set</span> <span class="n">serveroutput</span> <span class="k">on</span><span class="p">;</span>
+<span class="k">begin</span>
+  <span class="k">declare</span>
+    <span class="n">lt2</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">lt1</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">lt5</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">lt10</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">lt25</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">lt50</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">gt50</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+    <span class="n">counter</span> <span class="nb">number</span> <span class="p">:</span><span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+<span class="k">begin</span>
+
+  <span class="k">for</span> <span class="n">recs</span> <span class="k">in</span> 
+    <span class="p">(</span>
+    <span class="k">select</span> 
+        <span class="n">street_intrstn_id</span><span class="p">,</span>
+            <span class="n">new_geom</span>
+        <span class="k">from</span>
+            <span class="n">t_street_intersection</span>
+        <span class="k">where</span> 
+            <span class="n">rownum</span> <span class="o">&lt;</span> <span class="mi">100</span>
+    <span class="p">)</span> <span class="n">loop</span>
+
+        <span class="k">for</span> <span class="n">recs2</span> <span class="k">in</span> 
+            <span class="p">(</span><span class="k">select</span> 
+                <span class="n">recs</span><span class="p">.</span><span class="n">street_intrstn_id</span><span class="p">,</span> 
+                    <span class="n">r</span><span class="p">.</span><span class="n">toid</span><span class="p">,</span> 
+                    <span class="n">sdo_nn_distance</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="n">dist</span>
+                <span class="k">from</span>
+                    <span class="n">itn</span><span class="p">.</span><span class="n">ITNRDND</span> <span class="n">r</span>
+                <span class="k">where</span> 
+                    <span class="n">sdo_nn</span>
+                        <span class="p">(</span>
+                        <span class="n">r</span><span class="p">.</span><span class="n">new_geom</span><span class="p">,</span> 
+                        <span class="n">recs</span><span class="p">.</span><span class="n">new_geom</span><span class="p">,</span>
+                        <span class="s1">&#39;sdo_batch_size=5&#39;</span><span class="p">,</span>
+                        <span class="mi">1</span>
+                        <span class="p">)</span> <span class="o">=</span> <span class="s1">&#39;TRUE&#39;</span>
+                    <span class="k">and</span> <span class="n">rownum</span> <span class="o">&lt;</span> <span class="mi">2</span>
+            <span class="p">)</span> <span class="n">Loop</span>
+
+                <span class="n">if</span> <span class="n">recs2</span><span class="p">.</span><span class="n">dist</span> <span class="o">&lt;=</span> <span class="mi">1</span> <span class="k">then</span>
+                    <span class="n">lt1</span> <span class="p">:</span><span class="o">=</span> <span class="n">lt1</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="n">elsif</span> <span class="n">recs2</span><span class="p">.</span><span class="n">dist</span> <span class="o">&lt;=</span> <span class="mi">2</span> <span class="k">then</span>
+                        <span class="n">lt2</span> <span class="p">:</span><span class="o">=</span> <span class="n">lt2</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="n">elsif</span> <span class="n">recs2</span><span class="p">.</span><span class="n">dist</span> <span class="o">&lt;=</span> <span class="mi">5</span> <span class="k">then</span>
+                        <span class="n">lt5</span> <span class="p">:</span><span class="o">=</span> <span class="n">lt5</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="n">elsif</span> <span class="n">recs2</span><span class="p">.</span><span class="n">dist</span> <span class="o">&lt;=</span> <span class="mi">10</span> <span class="k">then</span>
+                        <span class="n">lt10</span> <span class="p">:</span><span class="o">=</span> <span class="n">lt10</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="n">elsif</span> <span class="n">recs2</span><span class="p">.</span><span class="n">dist</span> <span class="o">&lt;=</span> <span class="mi">25</span> <span class="k">then</span>
+                        <span class="n">lt25</span> <span class="p">:</span><span class="o">=</span> <span class="n">lt25</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="n">elsif</span> <span class="n">recs2</span><span class="p">.</span><span class="n">dist</span> <span class="o">&lt;=</span> <span class="mi">50</span> <span class="k">then</span>
+                        <span class="n">lt50</span> <span class="p">:</span><span class="o">=</span> <span class="n">lt50</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                    <span class="k">else</span>
+                        <span class="n">gt50</span> <span class="p">:</span><span class="o">=</span> <span class="n">gt50</span> <span class="o">+</span> <span class="mi">1</span><span class="p">;</span>
+                <span class="k">end</span> <span class="n">if</span><span class="p">;</span>
+
+                <span class="n">counter</span> <span class="p">:</span><span class="o">=</span> <span class="n">counter</span><span class="o">+</span><span class="mi">1</span><span class="p">;</span>         
+
+            <span class="k">end</span> <span class="n">loop</span><span class="p">;</span>
+
+    <span class="k">end</span> <span class="n">loop</span><span class="p">;</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Less than     1m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt1</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt1</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Less than     2m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt2</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt2</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Less than     5m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt5</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt5</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Less than    10m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt10</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt10</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Less than    25m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt25</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt25</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Less than    50m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt50</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">lt50</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;Greater Than 50m &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">gt50</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;   &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">gt50</span><span class="o">/</span><span class="n">counter</span><span class="o">*</span><span class="mi">100</span><span class="p">,</span><span class="s1">&#39;999.0&#39;</span><span class="p">)</span><span class="o">||</span><span class="s1">&#39;%&#39;</span><span class="p">);</span>
+
+  <span class="n">dbms_output</span><span class="p">.</span><span class="n">put_line</span><span class="p">(</span><span class="s1">&#39;TOTAL            &#39;</span><span class="o">||</span><span class="n">to_char</span><span class="p">(</span><span class="n">counter</span><span class="p">,</span><span class="s1">&#39;99999&#39;</span><span class="p">));</span>
+
+  <span class="k">end</span><span class="p">;</span>
+
+<span class="k">end</span><span class="p">;</span>
+
+<span class="o">/</span>
+</code></pre></div>

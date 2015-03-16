@@ -1,0 +1,43 @@
+<p>Date: 2014-01-07 17:10
+Title: Setting up rsr under web2py in a virtual environment Arch Linux
+Category: Python, Arch, web2py
+Tags: Python, Arch, Set-up, virtual environment, web2py</p>
+
+<h1>Aims:</h1>
+
+<p>Setting up rsr under web2py in a virtual environment under Arch Linux
+Install flot.js</p>
+
+<h1>URLs used:</h1>
+
+<ul>
+<li><a href="https://github.com/dontgitit/rm">https://github.com/dontgitit/rm</a>
+also look at</li>
+<li><a href="https://github.com/dontgitit/bph">https://github.com/dontgitit/bph</a></li>
+</ul>
+
+<h1>TL;DR</h1>
+
+<ul>
+<li>Log into your virtual environment</li>
+<li>fire up web2py
+
+<ul>
+<li>enter admin interface
+
+<ul>
+<li>create new project
+
+<ul>
+<li>type in &#39;application name&#39;: rsr_app</li>
+</ul></li>
+<li>click &#39;create&#39;</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h1>Code</h1>
+<div class="highlight"><pre><code class="language-text" data-lang="text">workon p2_rsr
+cd .virtualenvs/p2_rsr #move to virtualenv directory
+./bin/python ./web2py/web2py.py #launch web2py
+</code></pre></div>

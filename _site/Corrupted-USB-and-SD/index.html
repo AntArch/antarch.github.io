@@ -1,0 +1,28 @@
+<p>Date: 2014-04-20 20:00
+Title: Corrupted USB and SD card
+Category: IT, USB, SD, corrupt
+Tags: IT, USB, SD, corrupt</p>
+
+<h1>Metadata</h1>
+
+<p>This document is formatted using MarkDown</p>
+
+<p>This work was done by Anthony Beck, <a href="http://orcid.org/0000-0002-2991-811X">OrcID: 0000-0002-2991-811X</a>.</p>
+
+<h1>Data analysis</h1>
+
+<p>I&#39;ve been doing a lot of ISO writing to USB and SD drives recently - #dontAsk. I&#39;ve been getting a rather worrying number of these:</p>
+
+<blockquote>
+<p>Invalid partition table - recursive partition on /dev/****</p>
+</blockquote>
+
+<p>To fix this go into terminal and do the following:</p>
+
+<blockquote>
+<p>sudo dd if=/dev/zero of=/dev/AAAAAA bs=1M</p>
+</blockquote>
+
+<p>where AAAAAA refers to your drive (normally sdb or sdc).</p>
+
+<p>This takes quite a long time to process. Once complete re-configure your drive in Gparted.</p>

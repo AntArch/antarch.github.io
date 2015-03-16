@@ -1,0 +1,587 @@
+<p>Date: 2014-09-25 14:47
+Title: Creating AddressBase+ from AdressBase Premium
+Category: GIS, addressing, UK
+Tags:  GIS, addressing, UK</p>
+
+<h1>Creating AB+ from ABPrem</h1>
+
+<p>Use the <a href="http://www.ordnancesurvey.co.uk/docs/support/os-addressing-products-attribute-mapping.pdf">OS Addressing products attribute mapping</a> and the <a href="http://www.ordnancesurvey.co.uk/docs/technical-specifications/addressbase-premium-technical-specification-csv.pdf">AddressBase technical specification</a> as references.</p>
+
+<p>The debate about ABP and AB+ still goes on. To help this I have pulled together a query to get an AB+ view from the ABP data. It&#39;s not an exact match (it&#39;s just quick and dirty) but most things are there.</p>
+
+<p>Count of records in ABPREM_BLPU</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">ABPREM_BLPU</span><span class="p">;</span>
+</code></pre></div>
+<p>giving 311159. This is an important figure. The end should match this!</p>
+
+<h2>BLPU and DPA</h2>
+
+<p>According to the technical spec there is a 1:(0,1) relationship between BLPU and DPA</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">blpu</span><span class="p">.</span><span class="n">CHANGE_TYPE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">UPRN</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">BLPU_STATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">BLPU_STATE_DATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">PARENT_UPRN</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">X_COORDINATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">Y_COORDINATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">RPC</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">LOCAL_CUSTODIAN_CODE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">START_DATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">END_DATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">LAST_UPDATE_DATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">ENTRY_DATE</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">POSTAL_ADDRESS</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">POSTCODE_LOCATOR</span><span class="p">,</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">MULTI_OCC_COUNT</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">RM_UDPRN</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">ORGANISATION_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">DEPARTMENT_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">SUB_BUILDING_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">BUILDING_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">BUILDING_NUMBER</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">DEP_THOROUGHFARE_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">THOROUGHFARE_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">DOU_DEP_LOCALITY</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">DEP_LOCALITY</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">POST_TOWN</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">POSTCODE</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">POSTCODE_TYPE</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_DEP_THOROUGHFARE_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_THOROUGHFARE_NAME</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_DOU_DEP_LOCALITY</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_DEP_LOCALITY</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_POST_TOWN</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">PO_BOX_NUMBER</span><span class="p">,</span>
+        <span class="n">dpa</span><span class="p">.</span><span class="n">PROCESS_DATE</span>
+    <span class="k">FROM</span>
+        <span class="n">ABPREM_BLPU</span> <span class="n">blpu</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="n">ABPREM_DELIVERYPTADDRESS</span> <span class="n">dpa</span>
+    <span class="k">ON</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">dpa</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<p>So lets count</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+    <span class="k">FROM</span>
+        <span class="n">ABPREM_BLPU</span> <span class="n">blpu</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="n">ABPREM_DELIVERYPTADDRESS</span> <span class="n">dpa</span>
+    <span class="k">ON</span>
+        <span class="n">blpu</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">dpa</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<p>giving 311160. This means instead of a 1:1 match between BLPU and DPA which is what the model states we have a 1: many relationship.</p>
+
+<p>Lets look at this</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">UPRN</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">from</span> 
+        <span class="n">ABPREM_DELIVERYPTADDRESS</span>
+    <span class="k">group</span> <span class="k">by</span> 
+        <span class="n">UPRN</span>
+    <span class="k">having</span> 
+        <span class="k">count</span> <span class="p">(</span><span class="n">UPRN</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div>
+<p>Produces 69 duplicate DPAs with the same UPRN. This is not good news.</p>
+
+<p>Lets look at some of these:</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">a</span><span class="p">.</span><span class="o">*</span>
+    <span class="k">from</span> 
+        <span class="n">ABPREM_DELIVERYPTADDRESS</span> <span class="n">a</span><span class="p">,</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_DELIVERYPTADDRESS</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span>
+            <span class="k">having</span> 
+                <span class="k">count</span> <span class="p">(</span><span class="n">UPRN</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="n">b</span>
+    <span class="k">where</span> <span class="n">a</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">b</span><span class="p">.</span><span class="n">UPRN</span>
+    <span class="k">order</span> <span class="k">by</span> 
+        <span class="n">a</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<p>These appear to be duplicate records in every respect EXCEPT they have a different number in the PRO_ORDER field. We can get around this by using a distinct select.</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">dpa</span><span class="p">.</span><span class="o">*</span>
+    <span class="k">FROM</span>
+        <span class="n">ABPREM_DELIVERYPTADDRESS</span> <span class="n">dpa</span>
+    <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> <span class="k">distinct</span>
+            <span class="n">UPRN</span>
+            <span class="k">FROM</span> 
+                <span class="n">ABPREM_DELIVERYPTADDRESS</span><span class="p">)</span> <span class="n">dup</span>
+    <span class="k">ON</span>
+        <span class="n">dup</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">dpa</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<p>We should be able to slot this into the earlier query</p>
+
+<p>Lets look at this</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">UPRN</span><span class="p">,</span> <span class="k">count</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">from</span> 
+        <span class="p">(</span><span class="k">select</span> <span class="k">distinct</span>
+            <span class="n">UPRN</span>
+            <span class="k">FROM</span> 
+                <span class="n">ABPREM_DELIVERYPTADDRESS</span><span class="p">)</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span>
+            <span class="k">having</span> 
+                <span class="k">count</span> <span class="p">(</span><span class="n">UPRN</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">;</span>
+</code></pre></div>
+<p>Produces O duplicate DPAs with the same UPRN. This is much better news.</p>
+
+<p>There are ways to fix (including deleting duplicates in the source) this but I&#39;m going for quick and dirty. I will materialise the table and then delete the duplicates:</p>
+
+<ul>
+<li>Materialise the table as SPA<em>BLPU</em>DPA</li>
+</ul>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">create</span> <span class="k">table</span> <span class="n">SPA_BLPU_DPA</span>
+    <span class="k">as</span>
+        <span class="k">select</span>
+            <span class="n">blpu</span><span class="p">.</span><span class="n">CHANGE_TYPE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">UPRN</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">BLPU_STATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">BLPU_STATE_DATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">PARENT_UPRN</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">X_COORDINATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">Y_COORDINATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">RPC</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">LOCAL_CUSTODIAN_CODE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">START_DATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">END_DATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">LAST_UPDATE_DATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">ENTRY_DATE</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">POSTAL_ADDRESS</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">POSTCODE_LOCATOR</span><span class="p">,</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">MULTI_OCC_COUNT</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">RM_UDPRN</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">ORGANISATION_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">DEPARTMENT_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">SUB_BUILDING_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">BUILDING_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">BUILDING_NUMBER</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">DEP_THOROUGHFARE_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">THOROUGHFARE_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">DOU_DEP_LOCALITY</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">DEP_LOCALITY</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">POST_TOWN</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">POSTCODE</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">POSTCODE_TYPE</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_DEP_THOROUGHFARE_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_THOROUGHFARE_NAME</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_DOU_DEP_LOCALITY</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_DEP_LOCALITY</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">WELSH_POST_TOWN</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">PO_BOX_NUMBER</span><span class="p">,</span>
+                <span class="n">dpa</span><span class="p">.</span><span class="n">PROCESS_DATE</span>
+            <span class="k">FROM</span>
+                <span class="n">ABPREM_BLPU</span> <span class="n">blpu</span>
+            <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+                <span class="n">ABPREM_DELIVERYPTADDRESS</span> <span class="n">dpa</span>
+            <span class="k">ON</span>
+                <span class="n">blpu</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">dpa</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+
+<span class="k">commit</span><span class="p">;</span>
+</code></pre></div>
+<p>and delete the duplicates</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="c1">--------------------------------------------------------</span>
+<span class="c1">-- FORCE UPRN to be unique!</span>
+<span class="c1">--------------------------------------------------------</span>
+<span class="k">delete</span> <span class="k">from</span> <span class="n">SPA_BLPU_DPA</span>
+  <span class="k">where</span> <span class="n">rowid</span> <span class="k">in</span> <span class="p">(</span><span class="k">select</span> <span class="n">rowid</span>
+    <span class="k">from</span> <span class="n">SPA_BLPU_DPA</span>
+    <span class="n">minus</span>
+      <span class="k">select</span> <span class="k">min</span><span class="p">(</span><span class="n">rowid</span><span class="p">)</span>
+      <span class="k">from</span> <span class="n">SPA_BLPU_DPA</span>
+    <span class="k">group</span> <span class="k">by</span> <span class="n">UPRN</span><span class="p">);</span>
+
+<span class="k">commit</span><span class="p">;</span>
+</code></pre></div>
+<p>we can now count the table</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="k">count</span> <span class="p">(</span><span class="o">*</span><span class="p">)</span>
+    <span class="k">from</span>
+        <span class="n">SPA_BLPU_DPA</span><span class="p">;</span>
+</code></pre></div>
+<ol>
+<li>thats better</li>
+</ol>
+
+<p><strong>This is a problem with AddressPlace Premium). According to the <a href="http://www.ordnancesurvey.co.uk/docs/technical-specifications/addressbase-premium-technical-specification-csv.pdf">ER model</a>^[see page 6] there should be 1:(0,1) relationship between BLPU and DPA tables. This is clearly wrong</strong></p>
+
+<h2>CLASSIFICATION and BLPU</h2>
+
+<p>According to the technical spec there is a 1:many relationship between BLPU and Classification </p>
+
+<p>Lets look at the many side of things.....</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+    <span class="k">from</span> 
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_CLASSIFICATION</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span>
+            <span class="k">having</span> 
+                <span class="k">count</span> <span class="p">(</span><span class="n">UPRN</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">);</span>
+</code></pre></div>
+<p>There are 576 multiple classifications from 4.2 million</p>
+
+<p>So this is going to be an annoyingly regular thing. We can get rid of the 1 to manys with the following:</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">UPRN</span><span class="p">,</span>
+    <span class="k">max</span><span class="p">(</span><span class="n">CLASSIFICATION_CODE</span><span class="p">)</span> <span class="k">CLASS</span>
+    <span class="k">from</span> 
+        <span class="n">ABPREM_CLASSIFICATION</span>
+    <span class="k">group</span> <span class="k">by</span> 
+        <span class="n">UPRN</span><span class="p">;</span>  
+</code></pre></div>
+<p>which allows us to join to SPA<em>BLPU</em>DPA as follows</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">blpudpa</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
+        <span class="k">class</span><span class="p">.</span><span class="k">CLASS</span>
+    <span class="k">FROM</span>
+        <span class="n">SPA_BLPU_DPA</span> <span class="n">blpudpa</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span><span class="p">,</span>
+            <span class="k">max</span><span class="p">(</span><span class="n">CLASSIFICATION_CODE</span><span class="p">)</span> <span class="k">CLASS</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_CLASSIFICATION</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span><span class="p">)</span> <span class="k">class</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="k">class</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<h2>Application cross reference</h2>
+
+<p>According to the technical spec there is a 1:many relationship between BLPU and Application cross reference</p>
+
+<p>The primary fields are UPRN, SOURCE and CROSS<em>REFERENCE. Ideally each UPRN, SOURCE, CROSS</em>REFERENCE combination should be unique:</p>
+<div class="highlight"><pre><code class="language-text" data-lang="text">select 
+    UPRN,
+        SOURCE, 
+        CROSS_REFERENCE,
+        count(1)
+    from 
+        ABPREM_APPXREF
+    group by 
+        UPRN,
+        SOURCE, 
+        CROSS_REFERENCE
+    having 
+        count (UPRN) &gt; 1);
+</code></pre></div>
+<p>Produces duplicates. Again not good :-(</p>
+
+<p>The best way of dealing with this is to look at it as a pivot table. We can pivot this data out and give it the required headings using the query below:</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="o">*</span>
+    <span class="k">from</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span><span class="p">,</span>
+                <span class="k">SOURCE</span><span class="p">,</span> 
+                <span class="n">CROSS_REFERENCE</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_APPXREF</span><span class="p">)</span>
+    <span class="n">pivot</span>
+        <span class="p">(</span><span class="k">min</span><span class="p">(</span><span class="n">CROSS_REFERENCE</span><span class="p">)</span>
+        <span class="k">for</span> <span class="k">SOURCE</span>
+        <span class="k">in</span> 
+            <span class="p">(</span><span class="s1">&#39;7666MA&#39;</span> <span class="k">as</span> <span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+            <span class="s1">&#39;7666MT&#39;</span> <span class="k">as</span> <span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+            <span class="s1">&#39;7666MI&#39;</span> <span class="k">AS</span> <span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+            <span class="s1">&#39;7666VC&#39;</span> <span class="k">AS</span> <span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+            <span class="s1">&#39;7666VN&#39;</span> <span class="k">AS</span> <span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+            <span class="s1">&#39;7666OW&#39;</span> <span class="k">AS</span> <span class="n">WARD_CODE</span><span class="p">,</span>
+            <span class="s1">&#39;7666OP&#39;</span> <span class="k">AS</span> <span class="n">PARISH_CODE</span><span class="p">));</span>
+</code></pre></div>
+<p>which allows us to join to SPA<em>BLPU</em>DPA as follows:</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">blpudpa</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">WARD_CODE</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">PARISH_CODE</span>
+    <span class="k">FROM</span>
+        <span class="n">SPA_BLPU_DPA</span> <span class="n">blpudpa</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="o">*</span>
+            <span class="k">from</span>
+                <span class="p">(</span><span class="k">select</span> 
+                    <span class="n">UPRN</span><span class="p">,</span>
+                        <span class="k">SOURCE</span><span class="p">,</span> 
+                        <span class="n">CROSS_REFERENCE</span>
+                    <span class="k">from</span> 
+                        <span class="n">ABPREM_APPXREF</span><span class="p">)</span>
+            <span class="n">pivot</span>
+                <span class="p">(</span><span class="k">min</span><span class="p">(</span><span class="n">CROSS_REFERENCE</span><span class="p">)</span>
+                <span class="k">for</span> <span class="k">SOURCE</span>
+                <span class="k">in</span> 
+                    <span class="p">(</span><span class="s1">&#39;7666MA&#39;</span> <span class="k">as</span> <span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+                    <span class="s1">&#39;7666MT&#39;</span> <span class="k">as</span> <span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+                    <span class="s1">&#39;7666MI&#39;</span> <span class="k">AS</span> <span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+                    <span class="s1">&#39;7666VC&#39;</span> <span class="k">AS</span> <span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+                    <span class="s1">&#39;7666VN&#39;</span> <span class="k">AS</span> <span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+                    <span class="s1">&#39;7666OW&#39;</span> <span class="k">AS</span> <span class="n">WARD_CODE</span><span class="p">,</span>
+                    <span class="s1">&#39;7666OP&#39;</span> <span class="k">AS</span> <span class="n">PARISH_CODE</span><span class="p">)))</span> <span class="n">xref</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">xref</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<h2>ORGANISATION and BLPU</h2>
+
+<p>According to the technical spec there is a 1:many relationship between BLPU and ORGANISATION </p>
+
+<p>Lets look at the many side of things.....</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+    <span class="k">from</span> 
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_ORGANISATION</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span>
+            <span class="k">having</span> 
+                <span class="k">count</span> <span class="p">(</span><span class="n">UPRN</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">);</span>
+</code></pre></div>
+<p>There are 4 multiple ORGANISATIONs from 87,772.</p>
+
+<p>We can get rid of the 1 to manys with the following:</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="n">UPRN</span><span class="p">,</span>
+    <span class="k">max</span><span class="p">(</span><span class="n">ORGANISATION</span><span class="p">)</span> <span class="n">ORGANISATION</span>
+    <span class="k">from</span> 
+        <span class="n">ABPREM_ORGANISATION</span>
+    <span class="k">group</span> <span class="k">by</span> 
+        <span class="n">UPRN</span><span class="p">;</span>  
+</code></pre></div>
+<p>which allows us to join to SPA<em>BLPU</em>DPA as follows</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">blpudpa</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
+        <span class="n">org</span><span class="p">.</span><span class="n">ORGANISATION</span>
+    <span class="k">FROM</span>
+        <span class="n">SPA_BLPU_DPA</span> <span class="n">blpudpa</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span><span class="p">,</span>
+            <span class="k">max</span><span class="p">(</span><span class="n">ORGANISATION</span><span class="p">)</span> <span class="n">ORGANISATION</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_ORGANISATION</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span><span class="p">)</span> <span class="n">org</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">org</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<h2>LPI and BLPU</h2>
+
+<p>According to the technical spec there is a 1:many relationship between BLPU and LPI </p>
+
+<p>However, we already have the table ABP<em>SINGLE</em>ADDRESS which should have resolved most of these many issues.</p>
+
+<p>Lets look at the many side of things.....</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span> 
+    <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span>
+    <span class="k">from</span> 
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span>
+            <span class="k">from</span> 
+                <span class="n">ABP_SINGLE_ADDRESS</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span>
+            <span class="k">having</span> 
+                <span class="k">count</span> <span class="p">(</span><span class="n">UPRN</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">);</span>
+</code></pre></div>
+<p>This is null. So we can join the tables together with SPA<em>BLPU</em>DPA as follows</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">blpudpa</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_TEXT</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_START_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_START_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_END_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_END_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_TEXT</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_START_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_START_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_END_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_END_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">STREET_DESCRIPTION</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">LOCALITY_NAME</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">POSTCODE_LOCATOR</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">GEO_SINGLE_ADDRESS_LABEL</span>
+    <span class="k">FROM</span>
+        <span class="n">SPA_BLPU_DPA</span> <span class="n">blpudpa</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="n">ABP_SINGLE_ADDRESS</span> <span class="n">lpi</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">lpi</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<h2>Bringing it all together</h2>
+
+<p>Basically just plug them all together into a big long multiple join statement:-)</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">select</span>
+    <span class="n">blpudpa</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
+        <span class="k">class</span><span class="p">.</span><span class="k">CLASS</span><span class="p">,</span>
+        <span class="n">org</span><span class="p">.</span><span class="n">ORGANISATION</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_TEXT</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_START_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_START_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_END_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_END_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_TEXT</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_START_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_START_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_END_NUMBER</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_END_SUFFIX</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">STREET_DESCRIPTION</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">LOCALITY_NAME</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">POSTCODE_LOCATOR</span><span class="p">,</span>
+        <span class="n">lpi</span><span class="p">.</span><span class="n">GEO_SINGLE_ADDRESS_LABEL</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">WARD_CODE</span><span class="p">,</span>
+        <span class="n">xref</span><span class="p">.</span><span class="n">PARISH_CODE</span>
+    <span class="k">FROM</span>
+        <span class="n">SPA_BLPU_DPA</span> <span class="n">blpudpa</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span><span class="p">,</span>
+            <span class="k">max</span><span class="p">(</span><span class="n">CLASSIFICATION_CODE</span><span class="p">)</span> <span class="k">CLASS</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_CLASSIFICATION</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span><span class="p">)</span> <span class="k">class</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="k">class</span><span class="p">.</span><span class="n">UPRN</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="n">UPRN</span><span class="p">,</span>
+            <span class="k">max</span><span class="p">(</span><span class="n">ORGANISATION</span><span class="p">)</span> <span class="n">ORGANISATION</span>
+            <span class="k">from</span> 
+                <span class="n">ABPREM_ORGANISATION</span>
+            <span class="k">group</span> <span class="k">by</span> 
+                <span class="n">UPRN</span><span class="p">)</span> <span class="n">org</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">org</span><span class="p">.</span><span class="n">UPRN</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="n">ABP_SINGLE_ADDRESS</span> <span class="n">lpi</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">lpi</span><span class="p">.</span><span class="n">UPRN</span>
+    <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+        <span class="p">(</span><span class="k">select</span> 
+            <span class="o">*</span>
+            <span class="k">from</span>
+                <span class="p">(</span><span class="k">select</span> 
+                    <span class="n">UPRN</span><span class="p">,</span>
+                        <span class="k">SOURCE</span><span class="p">,</span> 
+                        <span class="n">CROSS_REFERENCE</span>
+                    <span class="k">from</span> 
+                        <span class="n">ABPREM_APPXREF</span><span class="p">)</span>
+            <span class="n">pivot</span>
+                <span class="p">(</span><span class="k">min</span><span class="p">(</span><span class="n">CROSS_REFERENCE</span><span class="p">)</span>
+                <span class="k">for</span> <span class="k">SOURCE</span>
+                <span class="k">in</span> 
+                    <span class="p">(</span><span class="s1">&#39;7666MA&#39;</span> <span class="k">as</span> <span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+                    <span class="s1">&#39;7666MT&#39;</span> <span class="k">as</span> <span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+                    <span class="s1">&#39;7666MI&#39;</span> <span class="k">AS</span> <span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+                    <span class="s1">&#39;7666VC&#39;</span> <span class="k">AS</span> <span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+                    <span class="s1">&#39;7666VN&#39;</span> <span class="k">AS</span> <span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+                    <span class="s1">&#39;7666OW&#39;</span> <span class="k">AS</span> <span class="n">WARD_CODE</span><span class="p">,</span>
+                    <span class="s1">&#39;7666OP&#39;</span> <span class="k">AS</span> <span class="n">PARISH_CODE</span><span class="p">)))</span> <span class="n">xref</span>
+    <span class="k">ON</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">xref</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+</code></pre></div>
+<p>This can be used to create a new table SPA<em>ABPLUS</em>CLONE</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">create</span> <span class="k">table</span> <span class="n">SPA_ABPLUS_CLONE</span> <span class="k">as</span> 
+
+    <span class="k">select</span>
+        <span class="n">blpudpa</span><span class="p">.</span><span class="o">*</span><span class="p">,</span>
+            <span class="k">class</span><span class="p">.</span><span class="k">CLASS</span><span class="p">,</span>
+            <span class="n">org</span><span class="p">.</span><span class="n">ORGANISATION</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_TEXT</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_START_NUMBER</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_START_SUFFIX</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_END_NUMBER</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">SAO_END_SUFFIX</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_TEXT</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_START_NUMBER</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_START_SUFFIX</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_END_NUMBER</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">PAO_END_SUFFIX</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">STREET_DESCRIPTION</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">LOCALITY_NAME</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">POSTCODE_LOCATOR</span> <span class="k">as</span> <span class="n">LPI_POSTCODE_LOCATOR</span><span class="p">,</span>
+            <span class="n">lpi</span><span class="p">.</span><span class="n">GEO_SINGLE_ADDRESS_LABEL</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">WARD_CODE</span><span class="p">,</span>
+            <span class="n">xref</span><span class="p">.</span><span class="n">PARISH_CODE</span>
+        <span class="k">FROM</span>
+            <span class="n">SPA_BLPU_DPA</span> <span class="n">blpudpa</span>
+        <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+            <span class="p">(</span><span class="k">select</span> 
+                <span class="n">UPRN</span><span class="p">,</span>
+                <span class="k">max</span><span class="p">(</span><span class="n">CLASSIFICATION_CODE</span><span class="p">)</span> <span class="k">CLASS</span>
+                <span class="k">from</span> 
+                    <span class="n">ABPREM_CLASSIFICATION</span>
+                <span class="k">group</span> <span class="k">by</span> 
+                    <span class="n">UPRN</span><span class="p">)</span> <span class="k">class</span>
+        <span class="k">ON</span>
+            <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="k">class</span><span class="p">.</span><span class="n">UPRN</span>
+        <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+            <span class="p">(</span><span class="k">select</span> 
+                <span class="n">UPRN</span><span class="p">,</span>
+                <span class="k">max</span><span class="p">(</span><span class="n">ORGANISATION</span><span class="p">)</span> <span class="n">ORGANISATION</span>
+                <span class="k">from</span> 
+                    <span class="n">ABPREM_ORGANISATION</span>
+                <span class="k">group</span> <span class="k">by</span> 
+                    <span class="n">UPRN</span><span class="p">)</span> <span class="n">org</span>
+        <span class="k">ON</span>
+            <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">org</span><span class="p">.</span><span class="n">UPRN</span>
+        <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+            <span class="n">ABP_SINGLE_ADDRESS</span> <span class="n">lpi</span>
+        <span class="k">ON</span>
+            <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">lpi</span><span class="p">.</span><span class="n">UPRN</span>
+        <span class="k">LEFT</span> <span class="k">OUTER</span> <span class="k">JOIN</span>
+            <span class="p">(</span><span class="k">select</span> 
+                <span class="o">*</span>
+                <span class="k">from</span>
+                    <span class="p">(</span><span class="k">select</span> 
+                        <span class="n">UPRN</span><span class="p">,</span>
+                            <span class="k">SOURCE</span><span class="p">,</span> 
+                            <span class="n">CROSS_REFERENCE</span>
+                        <span class="k">from</span> 
+                            <span class="n">ABPREM_APPXREF</span><span class="p">)</span>
+                <span class="n">pivot</span>
+                    <span class="p">(</span><span class="k">min</span><span class="p">(</span><span class="n">CROSS_REFERENCE</span><span class="p">)</span>
+                    <span class="k">for</span> <span class="k">SOURCE</span>
+                    <span class="k">in</span> 
+                        <span class="p">(</span><span class="s1">&#39;7666MA&#39;</span> <span class="k">as</span> <span class="n">OS_ADDRESS_TOID</span><span class="p">,</span>
+                        <span class="s1">&#39;7666MT&#39;</span> <span class="k">as</span> <span class="n">OS_TOPO_TOID</span><span class="p">,</span>
+                        <span class="s1">&#39;7666MI&#39;</span> <span class="k">AS</span> <span class="n">OS_ROADLINK_TOID</span><span class="p">,</span>
+                        <span class="s1">&#39;7666VC&#39;</span> <span class="k">AS</span> <span class="n">VOA_CT_RECORD</span><span class="p">,</span>
+                        <span class="s1">&#39;7666VN&#39;</span> <span class="k">AS</span> <span class="n">VOA_NDR_RECORD</span><span class="p">,</span>
+                        <span class="s1">&#39;7666OW&#39;</span> <span class="k">AS</span> <span class="n">WARD_CODE</span><span class="p">,</span>
+                        <span class="s1">&#39;7666OP&#39;</span> <span class="k">AS</span> <span class="n">PARISH_CODE</span><span class="p">)))</span> <span class="n">xref</span>
+        <span class="k">ON</span>
+            <span class="n">blpudpa</span><span class="p">.</span><span class="n">UPRN</span> <span class="o">=</span> <span class="n">xref</span><span class="p">.</span><span class="n">UPRN</span><span class="p">;</span>
+
+<span class="k">commit</span><span class="p">;</span>
+</code></pre></div>
+<p>To wrap this all up we should then count the records</p>
+<div class="highlight"><pre><code class="language-sql" data-lang="sql"><span class="k">Select</span> <span class="k">count</span><span class="p">(</span><span class="o">*</span><span class="p">)</span> <span class="k">from</span> <span class="n">SPA_ABPLUS_CLONE</span>
+</code></pre></div>
+<p>at 311159 records. Our work here is done.</p>

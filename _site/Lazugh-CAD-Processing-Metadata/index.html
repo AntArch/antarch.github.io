@@ -1,0 +1,446 @@
+<p>Date: 2014-04-17 20:00
+Title: Processing the Lazugh CAD survey
+Category: Oman, CAD, AutoCAD MAP, GIS, transform, enhance, Earthwatch, Lazugh, NFRCEC, Open Street Map
+Tags: Oman, CAD, AutoCAD MAP, GIS, transform, enhance, Earthwatch, Lazugh, NFRCEC, Open Street Map</p>
+
+<h1>Metadata</h1>
+
+<p>This document is formatted using MarkDown</p>
+
+<p>This work was done by Anthony Beck, <a href="http://orcid.org/0000-0002-2991-811X">OrcID: 0000-0002-2991-811X</a>.</p>
+
+<p>This work was done for free because I want to see it in Open Street Map. </p>
+
+<p>You can download the files from <a href="ftp://79.77.41.237/FTPBeck/Lazugh.zip">my anonymous ftp sites here: ftp://79.77.41.237/FTPBeck/Lazugh.zip</a>.</p>
+
+<h1>Things for others to do and be aware of</h1>
+
+<ul>
+<li>Sort out the projection</li>
+<li>Check that these file reflect the original data (i.e. validate this stuff)
+
+<ul>
+<li>Specifically check to see if the number of trees output represent the number of trees in the oroginal</li>
+</ul></li>
+<li>There are, inevitable, weirdnesses in the data. If you see the csv file you will find co-ordinates that are not in Luzugh. Not sure if I can do anything about this - I think it&#39;s  an artifact of the way they did there CAD work.</li>
+<li>There are no attributes in the polygon shapefiles. I&#39;m not that bothered. You may be</li>
+<li>The falaj system is currently as polylines (in Structure) you can export it as an individual thing. Do note that it does connect through to other landscape features (wells, cisterns, generators etc. ) - this connectivity has not been fully articulated (you are in a better position to do this than you were). BTW some of the falaj original survey is pretty poor).</li>
+<li>I&#39;m happy to chat about this.</li>
+</ul>
+
+<p>I will put this into Open Street Map once I&#39;ve had initial feedback from you all. In OSM hopefully other people will sort out some of the problems/layering issues which means you will have a better base-map to work with :-)</p>
+
+<h1>Processing the Lazugh CAD survey</h1>
+
+<ul>
+<li>Done in AutoCAD MAP</li>
+<li>All saved in Lazugh/CAD</li>
+<li>Open file &quot;Survey drawing&quot;.dwg</li>
+<li>Document layer types and details (stored in WhatTheLayersMean.xlsx)</li>
+<li>Cleaned out extraneous rubbish (hatch layers etc) saved the layer as Survey<em>drawing</em>ARB_clean.dwg </li>
+<li>Created an autoCAD map query template linking to Survey<em>drawing</em>ARB_clean.dwg called LazughTemplate.dwg</li>
+<li>Pull out the groups as defined in the excell spreadsheet and process independently</li>
+<li>All further work saved in Lazugh/CAD/Derivatives</li>
+</ul>
+
+<h1>Processing the 3d data</h1>
+
+<p>Completed = Yes</p>
+
+<h2>Purpose</h2>
+
+<p>This data represents 3d point and breakline data suitable for producing a Digital Elevation Model within a GIS package.</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li>3d_Lazugh.dwg</li>
+<li>3d_points.csv</li>
+<li>3d_breaklines.shp</li>
+<li>3d points.shp</li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>3D breakline  Line</li>
+<li>b break line  Line</li>
+<li>SRF-FLT   Line</li>
+<li>SURVEY DATA   Point</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>Template saved as 3d_Lazugh.dwg</li>
+<li>A Map query was run as &#39;Report&#39;on the layer &#39;SURVEY DATA&#39; reporting X, Y, Z to the file 3d_points.csv
+
+<ul>
+<li>This was saved as Lazugh<em>Report</em>Template.dwg</li>
+</ul></li>
+<li>A Map query was run as &#39;draw&#39; on the following layers
+
+<ul>
+<li>3D breakline  Line</li>
+<li>b break line  Line</li>
+<li>SRF-FLT   Line</li>
+<li>SURVEY DATA   Point</li>
+</ul></li>
+<li>A visual inspection showed that SRF-FLT contained most of the breakline data (layers &#39;3d breakline&#39; and &#39;b break line&#39; were deleted)</li>
+<li>The data was exported into the subfolder ShapeFiles:
+
+<ul>
+<li>Line geometry as 3d_breaklines.shp</li>
+<li>Point geometry as 3d points.shp</li>
+</ul></li>
+</ul>
+
+<h1>Processing the Control data</h1>
+
+<p>Completed = Yes</p>
+
+<h2>Purpose</h2>
+
+<p>The survey company established 3d control points in the study area. These will be useful for future survey work.</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li>Control_Lazugh.dwg</li>
+<li>Control_points.csv</li>
+<li>Control_points.shp</li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>BENCH MARK    Point</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>Using Lazugh<em>Report</em>Template.dwg
+
+<ul>
+<li>A Map query was run as &#39;Report&#39; on the layer &#39;BENCH MARK&#39; reporting X, Y, Z to the file Control_points.csv</li>
+</ul></li>
+<li>a copy of LazughTemplate.dwg was made and called Control_Lazugh.dwg</li>
+<li>A Map query was run as &#39;draw&#39; on the following layers
+
+<ul>
+<li>BENCH MARK    Point</li>
+</ul></li>
+<li>The data was exported into the subfolder ShapeFiles:
+
+<ul>
+<li>Point geometry as 3d points.shp</li>
+</ul></li>
+</ul>
+
+<h1>Processing the Falaj data</h1>
+
+<p>Completed = No - it has been incorporated into the SURFACE output (you can extract it from the LINE shapefile). I&#39;d have liked tis to be prettier.... ho hum.</p>
+
+<h2>Purpose</h2>
+
+<p>The Falaj network in Lazugh.</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li></li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>3d falaj centre line  Line    Falaj</li>
+<li>3d falaj line Line    Falaj</li>
+<li>NEW FALAJ 3d CENTRE line  Line    Falaj</li>
+<li>NEW FALAJ 3d CENTRE line  Line    Falaj</li>
+<li>Wash box  Polygon Falaj</li>
+<li>Water pole    Mixed   Falaj</li>
+<li>Water tank    Polygon Falaj</li>
+<li>Well  Polygon Falaj</li>
+<li>CW    Line    Falaj?</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>a copy of LazughTemplate.dwg was made and called Falaj_Lazugh.dwg</li>
+<li>A Map query was run as &#39;draw&#39; on the following layers
+
+<ul>
+<li></li>
+</ul></li>
+<li>The data was exported into the subfolder ShapeFiles:
+
+<ul>
+<li>Point geometry as </li>
+</ul></li>
+</ul>
+
+<h1>Processing the Network data</h1>
+
+<p>Completed = Yes</p>
+
+<h2>Purpose</h2>
+
+<p>Road and track network data in Lazurgh</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li>Network_Lazugh.dwg</li>
+<li>Network_Polygon.shp</li>
+<li>Network_Line.shp</li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>Asphalt Road  Line</li>
+<li>TRACK ROAD    Line</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>A copy of LazughTemplate.dwg was made and called Network_Lazugh.dwg</li>
+<li>A Map query was run as &#39;draw&#39; on the following layers
+
+<ul>
+<li>Asphalt Road  Line</li>
+<li>TRACK ROAD    Line</li>
+</ul></li>
+<li>The polygon segments were closed</li>
+<li>Drawing cleanup was used to create topologically clean line segments</li>
+<li>Topology was created</li>
+<li>Closed polygons were created on the layer &#39;RoadPolygon&#39;</li>
+<li>The data was exported into the subfolder ShapeFiles:
+
+<ul>
+<li>Polygon geometry as Network_Polygon.shp</li>
+<li>Line geometry as Network_line.shp</li>
+</ul></li>
+</ul>
+
+<h1>Processing the Street Furniture data</h1>
+
+<p>Completed = Yes</p>
+
+<h2>Purpose</h2>
+
+<p>Street Furniture in Lazurgh</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li>StreetFurniture_Lazugh.dwg</li>
+<li>StreetFurniture_Points.shp</li>
+<li>StreetFurniture_Points.csv</li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>BOLLARDS  point</li>
+<li>EP    Point</li>
+<li>FH    Point</li>
+<li>LP    Point</li>
+<li>PIPE  point</li>
+<li>POLE  point</li>
+<li>TP    Point</li>
+<li>UGC   Point</li>
+<li>VALVE02   Point</li>
+<li>Road Sign Board   point</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>A copy of LazughTemplate.dwg was made and called StreetFurniture_Lazugh.dwg</li>
+<li>A Map query was run as &#39;draw&#39; on the following layers
+
+<ul>
+<li>BOLLARDS  point</li>
+<li>EP    Point</li>
+<li>FH    Point</li>
+<li>LP    Point</li>
+<li>PIPE  point</li>
+<li>POLE  point</li>
+<li>TP    Point</li>
+<li>UGC   Point</li>
+<li>VALVE02   Point</li>
+<li>Road Sign Board   point</li>
+</ul></li>
+<li>The layers were renamed to something sensible</li>
+<li>The data was exported into the subfolder ShapeFiles (layers was exported as an attribute):
+
+<ul>
+<li>Point geometry as StreetFurniture_Point.shp</li>
+</ul></li>
+<li>The X,Y, Z and Layer value were then exported as a re[port into StreetFurniture_Points.csv</li>
+</ul>
+
+<h1>Processing the Vegetation (including trees) data</h1>
+
+<p>Completed = Yes</p>
+
+<h2>Purpose</h2>
+
+<p>Exporting al the the vegetation areas as recorded in Luzugh</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li>Vegetation_Lazugh.dwg</li>
+<li>Vegetation_Point.shp</li>
+<li>Vegetation_Point.csv</li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>BUSH  Mixed</li>
+<li>DATES Point</li>
+<li>DATES DRY Point</li>
+<li>DATES MEDIUM  Point</li>
+<li>DATES SMALL   Point</li>
+<li>FLOWER    Point</li>
+<li>LEMON TREE DRY    Point</li>
+<li>TREE  Point</li>
+<li>TREE ALLEE    Point</li>
+<li>TREE ANAR Point</li>
+<li>TREE BANANA   Point</li>
+<li>TREE COCONUT  Point</li>
+<li>TREE GUVA Point</li>
+<li>TREE NEEM Point</li>
+<li>TREE ORANGE   Point</li>
+<li>TREE PAPPAYA  Point</li>
+<li>TREE SMALL    Point</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>A Map query was run as &#39;report&#39; on the following layers exporting (X, Y, Z and Layer) into Vegetation_point.csv
+
+<ul>
+<li>BUSH  Mixed</li>
+<li>DATES Point</li>
+<li>DATES DRY Point</li>
+<li>DATES MEDIUM  Point</li>
+<li>DATES SMALL   Point</li>
+<li>FLOWER    Point</li>
+<li>LEMON TREE DRY    Point</li>
+<li>TREE  Point</li>
+<li>TREE ALLEE    Point</li>
+<li>TREE ANAR Point</li>
+<li>TREE BANANA   Point</li>
+<li>TREE COCONUT  Point</li>
+<li>TREE GUVA Point</li>
+<li>TREE NEEM Point</li>
+<li>TREE ORANGE   Point</li>
+<li>TREE PAPPAYA  Point</li>
+<li>TREE SMALL    Point</li>
+</ul></li>
+<li>This layer was edited in Open Office Calc. The following structural changes occured:
+
+<ul>
+<li>Z field removed</li>
+<li>LAYER field renamed to ORIGINAL_LAYER</li>
+<li>Fields PLANT_GROUP, SPECIES and CHARACTERISTICS added</li>
+</ul></li>
+<li>The following data was added (the first vale represents the value in OIRINGAL_LAYER)</li>
+</ul>
+
+<p>ORIGINAL<em>LAYER|PLANT</em>GROUP|SPECIES|CHARACTERISTICS
+----|----|----|----
+BUSH|Bush|Unspecified|Unspecified
+Dates|Tree|Date|Unspecified
+DATES DRY|Tree|Date|Dry
+DATES MEDIUM|Tree|Date|Medium
+DATES SMALL|Tree|Date|Small
+FLOWER|Flower|Unspecified|Unspecified
+Lemon Tree dry|Tree|Lemon|Unspecified
+TREE ALLEE|Tree|Allee|Unspecified
+TREE ANAR|Tree|Anar|Unspecified
+TREE COCONUT|Tree|Coconut|Unspecified
+TREE GUVA|Tree|Guva|Unspecified
+TREE LEMON|Tree|Lemon|Unspecified
+TREE MANGO|Tree|Mango|Unspecified
+TREE NEEM|Tree|Neem|Unspecified
+TREE ORANGE|Tree|Orange|Unspecified
+TREE UNSPECIFIED|Tree|Unspecified|Unspecified
+TREE UNSPECIFIED SMALL|Tree|Unspecified|Small</p>
+
+<ul>
+<li>The csv data was imported into QGIS and then saved as a shapefile:
+
+<ul>
+<li>Point geometry as Vegetation_Point.shp</li>
+</ul></li>
+</ul>
+
+<h1>Processing the Structure data</h1>
+
+<p>Completed = Yes</p>
+
+<h2>Purpose</h2>
+
+<p>Exporting all the structure data recorded in Luzugh. The aim is to export this as polygons with real topology and lines for the non-polygon components. This may also include all the Falaj bits.</p>
+
+<p>Essenitally this is a messy nightmare</p>
+
+<h2>Outputs</h2>
+
+<ul>
+<li>Structure_Lazugh.dwg</li>
+<li>Structure<em>Lazugh</em>Cleaned.dwg</li>
+<li>Structure_Line.shp</li>
+<li>Structure_Polygon.shp</li>
+</ul>
+
+<h2>Layers</h2>
+
+<ul>
+<li>All that I deem relevant</li>
+</ul>
+
+<h2>Processing</h2>
+
+<ul>
+<li>A Map query was run as &#39;draw&#39; on the following layers
+
+<ul>
+<li>All that I deem relevant</li>
+</ul></li>
+<li>Line only layers were seperated (and their layers prefixed with line)</li>
+<li>A blanket drawing cleanup (overlaps, duplicates, intersections etc.) was used to remove initial cruft</li>
+<li>Hand editing and closing of polygons (FALAJ in particular)</li>
+<li>Gave up on the FALAJ as it was just too much
+
+<ul>
+<li>put falaj into the lines component</li>
+</ul></li>
+<li>All saved as Structure<em>Lazugh</em>Cleaned.dwg</li>
+<li>Created topology
+
+<ul>
+<li>Saved the version with a topology file</li>
+</ul></li>
+<li>All saved as Structure<em>Lazugh</em>Cleaned_withTopology.dwg</li>
+<li>Closed polyline topology layers exported as shapefile
+
+<ul>
+<li>Structure_Polygon.shp</li>
+</ul></li>
+<li>Polyline data exportde as shapefile with Layer as attribute 
+
+<ul>
+<li>Structure_Line.shp</li>
+</ul></li>
+</ul>

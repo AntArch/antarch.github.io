@@ -1,0 +1,66 @@
+<p>Date: 2014-01-06 16:00
+Title: Setting up a python environment in Arch Linux - basics
+Category: Python, Arch
+Tags: Python, Arch, Set-up, virtual environment</p>
+
+<h1>Aims:</h1>
+
+<p>Set up a python environment where I can run multiple self contained versions of python under virtualenv.</p>
+
+<h1>URLs used:</h1>
+
+<ul>
+<li><a href="http://docs.python-guide.org/en/latest/dev/virtualenvs/">http://docs.python-guide.org/en/latest/dev/virtualenvs/</a></li>
+<li><a href="http://dabapps.com/blog/introduction-to-pip-and-virtualenv-python/">http://dabapps.com/blog/introduction-to-pip-and-virtualenv-python/</a></li>
+<li><a href="http://virtualenvwrapper.readthedocs.org/en/latest/">http://virtualenvwrapper.readthedocs.org/en/latest/</a></li>
+</ul>
+
+<h1>TL;DR</h1>
+
+<ul>
+<li>Do use pip</li>
+<li>Don&#39;t use easy-install (apart from to install pip)</li>
+<li>Do install virtualenv</li>
+<li>Don&#39;t use virtualenv to manage virtual environments</li>
+<li>Do install virtualenvwrapper</li>
+<li>Do use virtualenvwrapper to manage virtual environments</li>
+</ul>
+
+<h1>SetUpCode:</h1>
+<div class="highlight"><pre><code class="language-text" data-lang="text">sudo pip install virtualenv   
+sudo pip install virtualenvwrapper
+sudo geany .bashrc
+&lt;addTheFollowingToBashrc&gt;
+    # set the workonhome and virtualenvwrapper_python
+    export WORKON_HOME=$HOME/.virtualenvs
+    export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.4
+    source /usr/bin/virtualenvwrapper.sh
+&lt;/addTheFollowingToBashrc&gt;
+</code></pre></div>
+<h1>Useage:</h1>
+<div class="highlight"><pre><code class="language-text" data-lang="text">mkvirtualenv &lt;virtualenvironment name&gt; #create a virtual environment using default settings
+mkvirtualenv -p /usr/bin/python3.4 &lt;virtualenvironment name&gt; #create a virtual environment using python3.4
+mkvirtualenv -p /usr/bin/python2.7 &lt;virtualenvironment name&gt; #create a virtual environment using python2.7
+lsvirtualenv #List the virtual enviornments: 
+workon &lt;virtualenvironment name&gt; #Use a specific virtual environment
+rmvirtualenv &lt;virtualenvironment name&gt; #Remove a specific virtual environment
+deactivate #stop using the current virtual environment
+</code></pre></div>
+<h1>Why:</h1>
+
+<p>By forcing your code to work against self-contained python environments stored in unique &#39;virtual environments&#39; you insulate yourself from changes in the underlying libraries which may break your code. </p>
+
+<h1>What does virtualenv do:</h1>
+
+<p>virtualenv solves this problem by creating a completely isolated virtual environment for each of your programs. An environment is simply a directory that contains a complete copy of everything needed to run a Python program, including a copy of the python binary itself, a copy of the entire Python standard library, a copy of the pip installer, and (crucially) a copy of the site-packages directory mentioned above. When you install a package from PyPI using the copy of pip that&#39;s created by the virtualenv tool, it will install the package into the site-packages directory inside the virtualenv directory. You can then use it in your program just as before.</p>
+
+<h1>What does virtualenvwrapper do:</h1>
+
+<ul>
+<li>Organizes all of your virtual environments in one place.</li>
+<li>Wrappers for managing your virtual environments (create, delete, copy).</li>
+<li>Use a single command to switch between environments.</li>
+<li>Tab completion for commands that take a virtual environment as argument.</li>
+<li>User-configurable hooks for all operations (see Per-User Customization).</li>
+<li>Plugin system for more creating sharable extensions (see Extending Virtualenvwrapper).</li>
+</ul>
