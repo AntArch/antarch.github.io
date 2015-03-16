@@ -10,10 +10,10 @@ I am a researcher with expertise in remote sensing, knowledge management, open d
 
 I have a broad interest in the life-cycle of geospatial data; from collection, management, transformation and heterogeneous integration, to consumption by different user groups. 
 
-I have been responsible for over £800k of research funding and was shortlisted for the Royal Academy of Engineering Young Entrepreneur of the Year Award. Downstream industrial exploitation of my research has resulted in industry awards. I have co-ordinated major multi-disciplinary grants. - See more at: http://orcid.org/0000-0002-2991-811X#sthash.kQwXC4CD.dpuf
+I have been responsible for over £800k of research funding and was shortlisted for the Royal Academy of Engineering Young Entrepreneur of the Year Award. Downstream industrial exploitation of my research has resulted in industry awards. I have co-ordinated major multi-disciplinary grants. - See more at: [OrcID](http://orcid.org/0000-0002-2991-811X#sthash.kQwXC4CD.dpuf)
 
 
 
 ### Contact me
 
-[ant.beck@gmail.com](mailto:ant.beck@gmail.com)
+[ant beck at gmail com #forWhatThatsWorth](mailto:ant.beck@gmail.com)
