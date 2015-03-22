@@ -1,8 +1,8 @@
 ---
-Date: 2015-12-15 10:47
-Title: LLUCAS Reading List
-Category: Reading List, Bibliography, LLUCAS
-Tags:  Reading List, Bibliography, LLUCAS
+date: 2015-12-15 10:47
+title: LLUCAS Reading List
+category: Reading List, Bibliography, LLUCAS
+tags:  Reading List, Bibliography, LLUCAS
 layout: post
 ---
 
