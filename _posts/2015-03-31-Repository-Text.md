@@ -1,14 +1,13 @@
-Date: 2015-03-31 10:47
-Title: Data repository for IEA project
-Category: academic, repository
-Tags:  academic, repository
-
 ---
+Date: 2015-03-31 10:47
 title:  'DRAFT - Data repository for IEA project'
 author: Anthony Beck
 tags: TRAC
 bibliography: references.bib
 csl: harvard.csl
+layout: post
+Category: academic, repository
+Tags:  academic, repository
 abstract: |
   
   [Professor Darren Robinson](http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson) from Nottingham University is the lead on the data management theme of a project funded by the [International Energy Agency](http://www.iea.org/) which commences at the end of March 2015.
@@ -18,7 +17,7 @@ abstract: |
   
   
   \newpage
-...
+---
 
 \newpage
 
