@@ -2,7 +2,7 @@
 date: 2015-03-22
 title:  'Migrating Research Objects From DARTPortal To Leeds Institutional Repository'
 author: Anthony Beck, Dave Harrison, Graham Blyth
-layout: post
+layout: page
 category: DART, data, repository, Leeds, Open Data, CKAN, e-prints
 tags: DART, data, repository, Leeds, Open Data, CKAN, e-prints
 bibliography: references.bib
