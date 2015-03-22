@@ -25,6 +25,7 @@ Sprint Objectives:
 * GitHub blogging with Jekyll
 * Meeting with potential PhD student
 * Start ingest of ABP data into POSTGRES environment
+* Get Darren in contact with the utility sector
 * Watching Brief
 	* Web - DARREN is a blocker
 	* OS meeting
@@ -69,3 +70,32 @@ Follow up meeting scheduled for Tuesday (or Wednesday)
 Tuesday 9-11
 
 ## Start ingest of ABP data into POSTGRES environment
+
+
+## Get Darren in contact with the utility sector
+
+
+
+Dear Jo,
+
+I hope all is well. I know it’s been a while since I was last in touch – but I have been watching the progress since MTU and VISTA. I not the consortium has built some good follow on projects.
+
+It was on the point of the consortium that I wanted to contact you. I now have a part-time Research Fellow position in Nottingham and have been in post nearly two months (in passing with my other hat on I’m also consulting at United Utilities). This is to undertake *smart cities* research (a term which is frowned upon – but cuts to the chase). Our PI is [Prof Darren Robinson](http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson).
+
+One of Darren’s projects is called InSMART and can be summarised as follows:
+
+>The [InSMART project](http://www.insmartenergy.com/) brings together cities, scientific and industrial organizations in order to implement a comprehensive model for enhancing sustainable planning addressing the current and future city energy needs through an integrative and multidisciplinary planning approach. This approach will identify the optimum mix of short, medium and long term measures for a sustainable energy future, addressing the efficiency of energy flows across various city sectors with regards to economic, environmental and social criteria and paving the way towards actual implementation of priority actions.
+
+The project I am working on is called Sustaining Urban Habitats (website under construction) – which builds on the approaches developed in InSMART.
+
+The projects could benefit from grater input from the utility sector: utilities are a provider of critical city infrastructure and are a key stakeholder (improving operational and policy impacts) and  there is a need for utility data to improve the modelling process. My thoughts turned to you – there is some overlap of interests here. These projects would benefit from your cross-utility approach and the insights you can offer from a data, operational and policy perspective.
+
+Anyway – I ‘ll leave it to the two of you to pick up. 
+
+Jo: [Darren’s details are here](http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson)
+
+Darren: [Jo’s details are here](https://www.linkedin.com/profile/view?id=29813422)
+
+Best wishes and I hope the alpacas are thriving ;-)
+
+Ant
