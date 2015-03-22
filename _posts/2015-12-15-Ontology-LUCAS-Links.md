@@ -3,6 +3,7 @@ date: 2015-12-15 10:47
 title: Useful Ontology links
 category: data analytics, data, analytics, python, r, sql, workflows
 tags:  data analytics, data, analytics, python, r, sql, workflows
+layout: post
 ---
 
 # Searching
