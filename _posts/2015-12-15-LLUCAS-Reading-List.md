@@ -1,7 +1,10 @@
+---
 Date: 2015-12-15 10:47
 Title: LLUCAS Reading List
 Category: Reading List, Bibliography, LLUCAS
 Tags:  Reading List, Bibliography, LLUCAS
+layout: post
+---
 
 This is the bibliography/reading list of [Anthony Beck](http://orcid.org/0000-0002-2991-811X) for the LLUCAS project. Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the [Leverhulme Trust](http://www.leverhulme.ac.uk/) funded project [Sustaining Urban Habitats - an interdisciplinary approach](http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx) led by [Prof Darren Robinson](http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson).
 
