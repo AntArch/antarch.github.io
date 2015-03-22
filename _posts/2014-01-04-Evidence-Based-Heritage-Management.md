@@ -1,30 +1,10 @@
 ---
-title:  'OSMGB as  a service - a proposal'
-author: Anthony Beck, Jeremy Morley, Amir Pourabdollah
-tags: 
-bibliography: references.bib
-csl: harvard.csl
-abstract: |
-  Please add in your name to the author list.
-
-  Written in Google Docs with the [StackEdit](https://stackedit.io/) extension using [CommonMark](http://commonmark.org/) formatting: an unambiguous implementation of Markdown for scholarly writing.
-  
-  Google doc - https://docs.google.com/document/d/1nBjBgxzuHPoCEWvFeNXZjt33xfx4BRyIedslOxiQZa0/edit
-
-  Can be rendered to other formats as using [Pandoc](http://johnmacfarlane.net/pandoc/). To render to PDF with a table of contents use the following:
-
-  pandoc -f markdown -t latex -N -V geometry:margin=1in  <location and name of file> --filter pandoc-citeproc --latex-engine=xelatex --toc -o <location and name of file>.pdf
-
-
-  \newpage
+date: 2014-01-04 16:00
+title: Evidence based heritage management in the landscape
+layout: post
+category: Archaeology
+tags: Evidence, Collaboration, Archaeology, Knowledge
 ---
-
-
-Date: 2014-01-04 16:00
-Title: Evidence based heritage management in the landscape
-Category: Archaeology
-Tags: Evidence, Collaboration, Archaeology, Knowledge
-
 
 Through [DART](http://www.dartproject.info) (and it's [data repository](http://dartportal.leeds.ac.uk)) we have established an ongoing research relationship with Prof Toby Mottram (professor of automated agriculture) at the Royal Agricultural University (RAU) formerly the Royal Agricultural College) in Cirencester. We are currently collaborating on maintaining long-term soil moisture and temperature measurements which Prof Mottram hopes to extend with distributed soil moisture monitoring techniques. We are also looking at how spatially enabled automated telemetry capture systems on agricultural implements may be used to determine localised soil characteristics (some of which may be indicative of archaeological deposits or may be useful for helping to determine geophysical approaches). The underlying thinking is that farmers can collect useful heritage monitoring data as a by-product of things they already do (i.e. there is no additional effort in the data collection process). The range of potential impacts is likely to improve as farmers and other landholders embrace data rich precision agriculture techniques. 
 
