@@ -1,7 +1,10 @@
+---
 Date: 2014-01-08 14:10
 Title: Scholarly Markdown and the art of academic writing (or how to put citations into markdown)
 Category: Markdown, Publication, Academic, Citations, Collaboration
 Tags: Markdown, Publication, Academic, Citations, Collaboration
+layout: post
+---
 
 #URLs used:
 * <http://johnmacfarlane.net/pandoc/README.html#pandocs-markdown>

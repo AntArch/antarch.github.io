@@ -3,6 +3,7 @@ Date: 2015-02-02 10:47
 Title: LLUCAS Sprint 01 2nd Feb - 13th Feb 2015
 Category: Sprint, Agile, LLUCAS
 Tags:  Sprint, Agile, LLUCAS
+layout: post
 ---
 
 These are the sprint archives/summaries of [Anthony Beck](http://orcid.org/0000-0002-2991-811X). Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the [Leverhulme Trust](http://www.leverhulme.ac.uk/) funded project [Sustaining Urban Habitats - an interdisciplinary approach](http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx) led by [Prof Darren Robinson](http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson).

@@ -1,7 +1,10 @@
+---
 Date: 2015-03-11 10:47
 Title: Installing Guest Additions for VirtualBox on OSGEO8
 Category: virtual box, ubuntu, mint, OSGeo
 Tags:  virtual box, ubuntu, mint, OSGeo
+layout: post
+---
 
 # Installing Guest additions
 

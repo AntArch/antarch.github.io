@@ -1,7 +1,11 @@
+---
 Date: 2014-01-20 17:00
 Title: Coordinate reprojection in python
 Category: Python, Geo, Reprojection
 Tags: Python, Geo, Reprojection
+layout: post
+---
+
 #Aims:
 This post demonstrates how to transform/reproject co-ordinates under python
 

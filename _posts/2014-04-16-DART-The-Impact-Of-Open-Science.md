@@ -1,7 +1,10 @@
+---
 Date: 2014-04-16 20:00
 Title: Technology and data driven collaboration - archaeological practice in the 21st Century
 Category: DART, archaeology, Open Science, Open Data, Open Access, Open, licences
 Tags: DART, archaeology, Open Science, Open Data, Open Access, Open, licences
+layout: post
+---
 
 This is the abstract for a talk I gave recently at the Open University
 

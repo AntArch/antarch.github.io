@@ -1,7 +1,11 @@
+---
 Date: 2014-01-06 20:00
 Title: Setting up a python environment in Arch Linux - Pycharm
 Category: Python, Arch
 Tags: Python, Arch, Set-up, virtual environment
+layout: post
+---
+
 #Aims:
 To configure the Pycharm development environment to use a specific virtual environment. This is specifically concerning using pycharm with git.
 

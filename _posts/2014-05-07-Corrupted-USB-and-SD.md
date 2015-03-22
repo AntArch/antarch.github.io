@@ -1,7 +1,10 @@
+---
 Date: 2014-04-20 20:00
 Title: Corrupted USB and SD card
 Category: IT, USB, SD, corrupt
 Tags: IT, USB, SD, corrupt
+layout: post
+---
 
 # Metadata
 

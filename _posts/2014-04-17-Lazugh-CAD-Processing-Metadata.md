@@ -1,7 +1,10 @@
+---
 Date: 2014-04-17 20:00
 Title: Processing the Lazugh CAD survey
 Category: Oman, CAD, AutoCAD MAP, GIS, transform, enhance, Earthwatch, Lazugh, NFRCEC, Open Street Map
 Tags: Oman, CAD, AutoCAD MAP, GIS, transform, enhance, Earthwatch, Lazugh, NFRCEC, Open Street Map
+layout: post
+---
 
 # Metadata
 

@@ -1,7 +1,11 @@
+---
 Date: 2014-01-06 16:00
 Title: Setting up a python environment in Arch Linux - basics
 Category: Python, Arch
 Tags: Python, Arch, Set-up, virtual environment
+layout: post
+---
+
 #Aims:
 Set up a python environment where I can run multiple self contained versions of python under virtualenv.
 

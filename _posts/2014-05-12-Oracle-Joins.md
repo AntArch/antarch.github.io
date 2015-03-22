@@ -1,7 +1,10 @@
+---
 Date: 2014-05-12 13:00
 Title: Oracle joins and ABP
 Category: IT, Oracle, Joins
 Tags: IT, Oracle, Joins
+layout: post
+---
 
 # Metadata
 

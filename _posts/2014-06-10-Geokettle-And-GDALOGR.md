@@ -1,8 +1,10 @@
+---
 Date: 2014-06-10 12:47
 Title: Geokettle and GDAL/OGR
 Category: GIS, ETL
 Tags:  GIS, ETL
-
+layout: post
+---
 
 
 # Metadata

@@ -1,7 +1,10 @@
+---
 Date: 2014-01-16 15:15
 Title: DART meeting with Keith Wilkinson about research
 Category: DART, meeting, research, analysis
 Tags: DART, meeting, analysis, postgres, python, statistics
+layout: post
+---
 
 Taken from a mindmap
 

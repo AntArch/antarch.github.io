@@ -1,7 +1,10 @@
+---
 Date: 2014-01-16 12:00
 Title: Ordnance Survey
 Category: Ordnance Survey, OS
 Tags: Ordnance Survey, OS
+layout: post
+---
 
 I had an interview with the Ordnance Survey in Southampton at their funky new (well new to me) building yesterday. I wouldn't normally talk/blog about such things however, this experience was most interesting.
 

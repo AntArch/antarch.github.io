@@ -1,7 +1,10 @@
+---
 Date: 2014-03-05 20:00
 Title: DART licences and the ADS
 Category: DART, archaeology, licences, ADS
 Tags: DART, archaeology, licences, ADS
+layout: post
+---
 
 This is a place where I am forming thoughts/discussions about licensing and the ADS in relation to the DART archive. 
 

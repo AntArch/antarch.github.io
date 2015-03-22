@@ -1,7 +1,10 @@
+---
 Date: 2014-04-20 20:00
 Title: Things i need to look at in python data analyics
 Category: Stuff
 Tags: Stuff
+layout: post
+---
 
 # Metadata
 

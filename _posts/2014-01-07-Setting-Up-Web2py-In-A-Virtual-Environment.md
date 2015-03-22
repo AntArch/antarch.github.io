@@ -1,7 +1,11 @@
+---
 Date: 2014-01-07 17:00
 Title: Setting up a web2py in a virtual environment Arch Linux
 Category: Python, Arch
 Tags: Python, Arch, Set-up, virtual environment, web2py
+layout: post
+---
+
 #Aims:
 Setting up a web2py in a virtual environment Arch Linux
 

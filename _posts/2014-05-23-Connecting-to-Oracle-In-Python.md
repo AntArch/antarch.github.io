@@ -1,7 +1,10 @@
+---
 Date: 2014-05-23 11:00
 Title: Connecting To Oracle In Python
 Category: Oracle, Python
 Tags: Oracle, Python
+layout: post
+---
 
 # Metadata
 

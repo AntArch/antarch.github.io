@@ -1,7 +1,11 @@
+---
 Date: 2014-01-06 18:00
 Title: Setting up a python environment in Arch Linux - advanced
 Category: Python, Arch
 Tags: Python, Arch, Set-up, virtual environment
+layout: post
+---
+
 #Aims:
 The python environments then need populating with libraries etc. This is the place to get some standard setups
 

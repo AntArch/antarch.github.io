@@ -1,7 +1,11 @@
+---
 Date: 2014-01-07 17:10
 Title: Setting up rsr under web2py in a virtual environment Arch Linux
 Category: Python, Arch, web2py
 Tags: Python, Arch, Set-up, virtual environment, web2py
+layout: post
+---
+
 #Aims:
 Setting up rsr under web2py in a virtual environment under Arch Linux
 Install flot.js

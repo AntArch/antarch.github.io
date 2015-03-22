@@ -1,7 +1,10 @@
+---
 Date: 2014-05-12 11:00
 Title: Cloning hard drives in Linux
 Category: IT, Linux, Clone, Disaster recovery
 Tags: IT, Linux, Clone, Disaster recovery
+layout: post
+---
 
 # Metadata
 

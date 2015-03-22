@@ -1,7 +1,10 @@
+---
 Date: 2014-09-25 14:47
 Title: Creating AddressBase+ from AdressBase Premium
 Category: GIS, addressing, UK
 Tags:  GIS, addressing, UK
+layout: post
+---
 
 #Creating AB+ from ABPrem
 

@@ -1,7 +1,10 @@
+---
 Date: 2014-01-30 12:00
 Title: DART follow on fund meeting with Chris Gaffney
 Category: DART, funding, archaeology
 Tags: DART, funding, archaeology
+layout: post
+---
 
 #Summary:
 
