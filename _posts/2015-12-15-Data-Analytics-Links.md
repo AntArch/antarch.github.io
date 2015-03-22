@@ -1,7 +1,12 @@
+---
 Date: 2015-12-15 10:47
 Title: Useful data analytics links
 Category: data analytics, data, analytics, python, r, sql, workflows
 Tags:  data analytics, data, analytics, python, r, sql, workflows
+layout: post
+---
+
+General data analytics links - mainly python
 
 # Agent Based Modelling
 

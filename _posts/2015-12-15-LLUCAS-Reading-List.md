@@ -10,6 +10,8 @@ This is the bibliography/reading list of [Anthony Beck](http://orcid.org/0000-00
 
 This needs converting into a bibtex file and biblio
 
+Currently cut and past from other areas
+
 # Background reading
 
 Mike Batty's website: http://www.complexcity.info/ and new book - is in the library - get it out! http://aleph.nottingham.ac.uk/F/LP7MD33T2XDRD3T9EC6JLVJGFG7NMF7NELT2VE18P1YM47RRKY-03206?func=item-global&doc_library=NOT01&doc_number=001692692&year=&volume=&sub_library=
@@ -31,7 +33,7 @@ http://en.wikipedia.org/wiki/Sustainable_energy
 http://en.wikipedia.org/wiki/Sustainable_transport  
 http://en.wikipedia.org/wiki/Sustainable_living 
 
-WoW! A place where I would like to live!
+
 A rural town in Italy, a leader in energy sustainability:
 http://reregions.blogspot.com/2010/03/varese-ligure-italy.html 
 
