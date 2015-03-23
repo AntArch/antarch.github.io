@@ -71,6 +71,12 @@ eprintid|rowid|documents.docid|documents.rowid|title|identifier|doi|funders
 1|1_5|3|3_0||||
 1|1_6|4|4_0||||
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 As can be seen the structure is a bit of a hack that allows 1 to many relational data to be expressed in a single flat file. The file is structured in the following ways:
 
 * Field *EPrintID* represents the identifier of the collection
