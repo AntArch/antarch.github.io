@@ -2,16 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ant Beck</title>
-    <description>Research Fellow (Nottingham University)</description>
+    <description>Research Fellow (Nottingham University), Director (GeoLytics Ltd.)</description>
     <link>http://orcid.org/0000-0002-2991-811X</link>
     <atom:link href="http://orcid.org/0000-0002-2991-811X/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Ontology Lucas Links</title>
-        <description>&lt;p&gt;Date: 2015-12-15 10:47
-Title: Useful Ontology links
-Category: data analytics, data, analytics, python, r, sql, workflows
-Tags:  data analytics, data, analytics, python, r, sql, workflows&lt;/p&gt;
+        <title>Useful Ontology links</title>
+        <description>&lt;p&gt;Useful ontologies&lt;/p&gt;
 
 &lt;h1&gt;Searching&lt;/h1&gt;
 
@@ -41,21 +38,18 @@ Tags:  data analytics, data, analytics, python, r, sql, workflows&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=UO&quot;&gt;A unit ontology&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 15 Dec 2015 10:47:00 +0000</pubDate>
         <link>http://orcid.org/0000-0002-2991-811X/Ontology-LUCAS-Links/</link>
         <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/Ontology-LUCAS-Links/</guid>
       </item>
     
       <item>
-        <title>Llucas Reading List</title>
-        <description>&lt;p&gt;Date: 2015-12-15 10:47
-Title: LLUCAS Reading List
-Category: Reading List, Bibliography, LLUCAS
-Tags:  Reading List, Bibliography, LLUCAS&lt;/p&gt;
-
-&lt;p&gt;This is the bibliography/reading list of &lt;a href=&quot;http://orcid.org/0000-0002-2991-811X&quot;&gt;Anthony Beck&lt;/a&gt; for the LLUCAS project. Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the &lt;a href=&quot;http://www.leverhulme.ac.uk/&quot;&gt;Leverhulme Trust&lt;/a&gt; funded project &lt;a href=&quot;http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx&quot;&gt;Sustaining Urban Habitats - an interdisciplinary approach&lt;/a&gt; led by &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;.&lt;/p&gt;
+        <title>LLUCAS Reading List</title>
+        <description>&lt;p&gt;This is the bibliography/reading list of &lt;a href=&quot;http://orcid.org/0000-0002-2991-811X&quot;&gt;Anthony Beck&lt;/a&gt; for the LLUCAS project. Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the &lt;a href=&quot;http://www.leverhulme.ac.uk/&quot;&gt;Leverhulme Trust&lt;/a&gt; funded project &lt;a href=&quot;http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx&quot;&gt;Sustaining Urban Habitats - an interdisciplinary approach&lt;/a&gt; led by &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;This needs converting into a bibtex file and biblio&lt;/p&gt;
+
+&lt;p&gt;Currently cut and past from other areas&lt;/p&gt;
 
 &lt;h1&gt;Background reading&lt;/h1&gt;
 
@@ -77,8 +71,7 @@ http://en.wikipedia.org/wiki/Sustainable&lt;/em&gt;energy
 http://en.wikipedia.org/wiki/Sustainable&lt;em&gt;transport&lt;br&gt;
 http://en.wikipedia.org/wiki/Sustainable&lt;/em&gt;living &lt;/p&gt;
 
-&lt;p&gt;WoW! A place where I would like to live!
-A rural town in Italy, a leader in energy sustainability:
+&lt;p&gt;A rural town in Italy, a leader in energy sustainability:
 http://reregions.blogspot.com/2010/03/varese-ligure-italy.html &lt;/p&gt;
 
 &lt;p&gt;Local Grocery
@@ -89,17 +82,14 @@ http://www.yesmagazine.org/issues/the-new-economy/mondragon-worker-cooperatives-
 http://opensourceecology.org/gvcs/gvcs-machine-index/
 http://www.ted.com/talks/marcin_jakubowski&lt;/p&gt;
 </description>
-        <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 15 Dec 2015 10:47:00 +0000</pubDate>
         <link>http://orcid.org/0000-0002-2991-811X/LLUCAS-Reading-List/</link>
         <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/LLUCAS-Reading-List/</guid>
       </item>
     
       <item>
         <title>Data Analytics Links</title>
-        <description>&lt;p&gt;Date: 2015-12-15 10:47
-Title: Useful data analytics links
-Category: data analytics, data, analytics, python, r, sql, workflows
-Tags:  data analytics, data, analytics, python, r, sql, workflows&lt;/p&gt;
+        <description>&lt;p&gt;General data analytics links - mainly python&lt;/p&gt;
 
 &lt;h1&gt;Agent Based Modelling&lt;/h1&gt;
 
@@ -143,29 +133,8 @@ Tags:  data analytics, data, analytics, python, r, sql, workflows&lt;/p&gt;
       </item>
     
       <item>
-        <title>Repository Text</title>
-        <description>&lt;p&gt;Date: 2015-03-31 10:47
-Title: Data repository for IEA project
-Category: academic, repository
-Tags:  academic, repository&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;title:  &amp;#39;DRAFT - Data repository for IEA project&amp;#39;
-author: Anthony Beck
-tags: TRAC
-bibliography: references.bib
-csl: harvard.csl
-abstract: |&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Professor Darren Robinson&lt;/a&gt; from Nottingham University is the lead on the data management theme of a project funded by the &lt;a href=&quot;http://www.iea.org/&quot;&gt;International Energy Agency&lt;/a&gt; which commences at the end of March 2015.&lt;/p&gt;
-
-&lt;p&gt;There is a recognised need to collate and make available relevant research objects^[data, algorithms, publications, illustrations etc.] to the project stakeholders with the overarching goal of ensuring methodological transparency and scalability. These research objects will be made available through a &lt;em&gt;repository environment&lt;/em&gt; with a supporting metadata system that will facilitate resource discovery and exploitation. Research objects should be accessed through a web-interface with a simple upload and download facility. &lt;/p&gt;
-
-&lt;p&gt;\newpage
-...&lt;/p&gt;
-
-&lt;p&gt;\newpage&lt;/p&gt;
+        <title>DRAFT - Data repository for IEA project</title>
+        <description>&lt;p&gt;\newpage&lt;/p&gt;
 
 &lt;h1&gt;Scope&lt;/h1&gt;
 
@@ -440,13 +409,45 @@ Questionnaire based&lt;/li&gt;
       </item>
     
       <item>
-        <title>Llucas Sprint04</title>
-        <description>&lt;p&gt;Date: 2015-03-16 10:47
-Title: LLUCAS Sprint 04 16th March - 27th March 2015
-Category: Sprint, Agile, LLUCAS
-Tags:  Sprint, Agile, LLUCAS&lt;/p&gt;
+        <title>Migrating Research Objects From DARTPortal To Leeds Institutional Repository</title>
+        <description>&lt;p&gt;Details about how the research objects held on &lt;a href=&quot;http://dartportal.leeds.ac.uk&quot;&gt;DARTPortal&lt;/a&gt; we&amp;#39;re migrating to the Leeds Institutional repository.&lt;/p&gt;
 
-&lt;p&gt;These are the sprint archives/summaries of &lt;a href=&quot;http://orcid.org/0000-0002-2991-811X&quot;&gt;Anthony Beck&lt;/a&gt;. Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the &lt;a href=&quot;http://www.leverhulme.ac.uk/&quot;&gt;Leverhulme Trust&lt;/a&gt; funded project &lt;a href=&quot;http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx&quot;&gt;Sustaining Urban Habitats - an interdisciplinary approach&lt;/a&gt; led by &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;\newpage&lt;/p&gt;
+
+&lt;h1&gt;Background&lt;/h1&gt;
+
+&lt;p&gt;The DART project established a data portal called &lt;a href=&quot;http://dartportal.leeds.ac.uk&quot;&gt;DARTPortal&lt;/a&gt; to hold research outputs. This was based on the &lt;a href=&quot;http://ckan.org/&quot;&gt;CKAN data portal&lt;/a&gt; provided by the Open Knowledge Foundation. The dedicated server has a postgresql instance and a &lt;a href=&quot;https://dartportal.leeds.ac.uk/webdav/&quot;&gt;webdav instance&lt;/a&gt;. Bespoke ingest features were written by Dr Dave Harrison. The ingest element tools used file naming patterns to populate basic metadata for a collection with new metadata elements. Different elements in the resource name either contained the source data to enter into the metadata record for that object (i.e. date or location) or referred to a text file that contained multiple metadata elements relating to, for example, the types of processing applied to the resource. The metadata descriped this in the field &lt;em&gt;title.pattern&lt;/em&gt; as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Where appropriate each resource has been named with the following pattern: DART&lt;em&gt;&lt;3 character sensor/collection name&gt;&lt;/em&gt;&lt;spatial location&gt;&lt;em&gt;&lt;StartDateTime YYYYMMDD with optional HHMM&gt;&lt;/em&gt;&lt;endDateTime YYYYMMDD with optional HHMM&gt;&lt;em&gt;&lt;stage PRO or RAW to refer to processed or raw data&gt;&lt;/em&gt;&lt;other stuff&gt;.&lt;suffix&gt;. Hence, the file DART&lt;em&gt;T3P&lt;/em&gt;DDCF&lt;em&gt;20110823&lt;/em&gt;20130106_PRO.csv refers to DART data collected using the T3P Imko soil moisture probes at Diddington Clay Field between 23rd August 2011 and 6th January 2013 which has been processed and is available in a comma separated text format.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The [DART metadata schema and associated keyword lookups is documented online]. This documentation includes mappings from the DART metadata to other metadata schemas including:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;UK_AGMAP&lt;/li&gt;
+&lt;li&gt;Dublin Core (text and RDF)&lt;/li&gt;
+&lt;li&gt;The Archaeology Data Service (who chose to undertake a manual extract)&lt;/li&gt;
+&lt;li&gt;Journal of Open Archaeological Data (for (semi) automated production of JOAD material)&lt;/li&gt;
+&lt;li&gt;GEMINI&lt;/li&gt;
+&lt;li&gt;E-Government&lt;/li&gt;
+&lt;li&gt;Federal Geographic Data Committee&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The metadata schema used by DART is rich. However, the DART data portal is a temporary entity. It was hoped that the repository landscape would become more developed and that the data hosted at DARTPortal could be re-deposited in perpetuity elsewhere - ideally with a Digital Object Identifier (&lt;a href=&quot;http://www.doi.org/&quot;&gt;DOI&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For the past 18 months &lt;a href=&quot;http://orcid.org/0000-0002-2991-811X&quot;&gt;Anthony Beck&lt;/a&gt; has been working with &lt;a href=&quot;https://library.leeds.ac.uk/people/Graham-Blyth&quot;&gt;Graham Blyth&lt;/a&gt; and &lt;a href=&quot;http://www.engineering.leeds.ac.uk/people/computing/staff/d.g.harrison&quot;&gt;Dave Harrison&lt;/a&gt; to ingest the research objects in DARTPortal into the new Leeds Institutional Repository. There are loads of benefits including preservation in perpetuity^[which does not mean forever], better uptime and signficantly a DOI for each resource (at the lowest level of granularity).&lt;/p&gt;
+
+&lt;p&gt;Data requirements:&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 Mar 2015 00:00:00 +0000</pubDate>
+        <link>http://orcid.org/0000-0002-2991-811X/Migrating-Research-Objects-From-DARTPortal-To-Leeds-Institutional-Repository/</link>
+        <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/Migrating-Research-Objects-From-DARTPortal-To-Leeds-Institutional-Repository/</guid>
+      </item>
+    
+      <item>
+        <title>Llucas Sprint04</title>
+        <description>&lt;p&gt;These are the sprint archives/summaries of &lt;a href=&quot;http://orcid.org/0000-0002-2991-811X&quot;&gt;Anthony Beck&lt;/a&gt;. Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the &lt;a href=&quot;http://www.leverhulme.ac.uk/&quot;&gt;Leverhulme Trust&lt;/a&gt; funded project &lt;a href=&quot;http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx&quot;&gt;Sustaining Urban Habitats - an interdisciplinary approach&lt;/a&gt; led by &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;These documents represent an archive of the work undertaken by Ant. &lt;/p&gt;
 
@@ -478,6 +479,7 @@ Tags:  Sprint, Agile, LLUCAS&lt;/p&gt;
 &lt;li&gt;GitHub blogging with Jekyll&lt;/li&gt;
 &lt;li&gt;Meeting with potential PhD student&lt;/li&gt;
 &lt;li&gt;Start ingest of ABP data into POSTGRES environment&lt;/li&gt;
+&lt;li&gt;Get Darren in contact with the utility sector&lt;/li&gt;
 &lt;li&gt;Watching Brief
 
 &lt;ul&gt;
@@ -518,6 +520,34 @@ This sprint has the following sub-tasks:&lt;/li&gt;
 &lt;p&gt;Tuesday 9-11&lt;/p&gt;
 
 &lt;h2&gt;Start ingest of ABP data into POSTGRES environment&lt;/h2&gt;
+
+&lt;h2&gt;Get Darren in contact with the utility sector&lt;/h2&gt;
+
+&lt;p&gt;Dear Jo,&lt;/p&gt;
+
+&lt;p&gt;I hope all is well. I know it’s been a while since I was last in touch – but I have been watching the progress since MTU and VISTA. I not the consortium has built some good follow on projects.&lt;/p&gt;
+
+&lt;p&gt;It was on the point of the consortium that I wanted to contact you. I now have a part-time Research Fellow position in Nottingham and have been in post nearly two months (in passing with my other hat on I’m also consulting at United Utilities). This is to undertake &lt;em&gt;smart cities&lt;/em&gt; research (a term which is frowned upon – but cuts to the chase). Our PI is &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;One of Darren’s projects is called InSMART and can be summarised as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The &lt;a href=&quot;http://www.insmartenergy.com/&quot;&gt;InSMART project&lt;/a&gt; brings together cities, scientific and industrial organizations in order to implement a comprehensive model for enhancing sustainable planning addressing the current and future city energy needs through an integrative and multidisciplinary planning approach. This approach will identify the optimum mix of short, medium and long term measures for a sustainable energy future, addressing the efficiency of energy flows across various city sectors with regards to economic, environmental and social criteria and paving the way towards actual implementation of priority actions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The project I am working on is called Sustaining Urban Habitats (website under construction) – which builds on the approaches developed in InSMART.&lt;/p&gt;
+
+&lt;p&gt;The projects could benefit from grater input from the utility sector: utilities are a provider of critical city infrastructure and are a key stakeholder (improving operational and policy impacts) and  there is a need for utility data to improve the modelling process. My thoughts turned to you – there is some overlap of interests here. These projects would benefit from your cross-utility approach and the insights you can offer from a data, operational and policy perspective.&lt;/p&gt;
+
+&lt;p&gt;Anyway – I ‘ll leave it to the two of you to pick up. &lt;/p&gt;
+
+&lt;p&gt;Jo: &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Darren’s details are here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Darren: &lt;a href=&quot;https://www.linkedin.com/profile/view?id=29813422&quot;&gt;Jo’s details are here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Best wishes and I hope the alpacas are thriving ;-)&lt;/p&gt;
+
+&lt;p&gt;Ant&lt;/p&gt;
 </description>
         <pubDate>Mon, 16 Mar 2015 00:00:00 +0000</pubDate>
         <link>http://orcid.org/0000-0002-2991-811X/LLUCAS-Sprint04/</link>
@@ -526,12 +556,7 @@ This sprint has the following sub-tasks:&lt;/li&gt;
     
       <item>
         <title>Installing Guest Additions For Osgeo8</title>
-        <description>&lt;p&gt;Date: 2015-03-11 10:47
-Title: Installing Guest Additions for VirtualBox on OSGEO8
-Category: virtual box, ubuntu, mint, OSGeo
-Tags:  virtual box, ubuntu, mint, OSGeo&lt;/p&gt;
-
-&lt;h1&gt;Installing Guest additions&lt;/h1&gt;
+        <description>&lt;h1&gt;Installing Guest additions&lt;/h1&gt;
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install virtualbox-guest-dkms
@@ -557,6 +582,15 @@ sudo reboot now
         <pubDate>Wed, 11 Mar 2015 00:00:00 +0000</pubDate>
         <link>http://orcid.org/0000-0002-2991-811X/Installing-Guest-Additions-For-OSGEO8/</link>
         <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/Installing-Guest-Additions-For-OSGEO8/</guid>
+      </item>
+    
+      <item>
+        <title>What Does A Global Address Framework Look Like</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://antarch.github.io/presentations/20150305_AddressDay/20150305_ARB_DIAS_PresentationbeigeCube.html#/&quot;&gt;What does a global address framework look like&lt;/a&gt; a presentation I gave at the British Computing Society in London. &lt;/p&gt;
+</description>
+        <pubDate>Thu, 05 Mar 2015 00:00:00 +0000</pubDate>
+        <link>http://orcid.org/0000-0002-2991-811X/What-does-a-global-address-framework-look-like/</link>
+        <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/What-does-a-global-address-framework-look-like/</guid>
       </item>
     
       <item>
@@ -1685,1014 +1719,6 @@ Phone: +44 020 3002 4836 - [map]&lt;/p&gt;
         <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
         <link>http://orcid.org/0000-0002-2991-811X/LLUCAS-Sprint02/</link>
         <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/LLUCAS-Sprint02/</guid>
-      </item>
-    
-      <item>
-        <title>Llucas Sprint01</title>
-        <description>&lt;p&gt;These are the sprint archives/summaries of &lt;a href=&quot;http://orcid.org/0000-0002-2991-811X&quot;&gt;Anthony Beck&lt;/a&gt;. Anthony is a part time (60% Full Time Equivalence (FTE)) researcher on the &lt;a href=&quot;http://www.leverhulme.ac.uk/&quot;&gt;Leverhulme Trust&lt;/a&gt; funded project &lt;a href=&quot;http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx&quot;&gt;Sustaining Urban Habitats - an interdisciplinary approach&lt;/a&gt; led by &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;These documents represent an archive of the work undertaken by Ant. &lt;/p&gt;
-
-&lt;p&gt;Unless stated otherwise these documents are released under a &lt;a href=&quot;https://creativecommons.org/choose/zero/&quot;&gt;CC0&lt;/a&gt; &lt;a href=&quot;http://www.dancohen.org/2013/11/26/cc0-by/&quot;&gt;(+BY)&lt;/a&gt;. This means that it is essentially in the public domain and you can re-use it in an unfettered way. I would, however, appreciate, but not mandate, a reference.&lt;/p&gt;
-
-&lt;h1&gt;Sprint 01 2nd Feb - 13th Feb 2015&lt;/h1&gt;
-
-&lt;p&gt;A general orientation sprint. With the following sub-tasks:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Workshops
-
-&lt;ul&gt;
-&lt;li&gt;Wednesday 11th Feb&lt;/li&gt;
-&lt;li&gt;Notes available in mindmap in /home/arb/ownCloud/Nottingham/LLUCAS/Workshops&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Create content for and deliver project web-page (need a landing page for phds)
-
-&lt;ul&gt;
-&lt;li&gt;Required approval from the CMS moderators to attend the course:
-
-&lt;ul&gt;
-&lt;li&gt;Engineering&lt;br&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Jemma Higney&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;+44 115 84 67556&lt;/li&gt;
-&lt;li&gt;jemma.higney@nottingham.ac.uk&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Geography 
-
-&lt;ul&gt;
-&lt;li&gt;Claire Chambers&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;+44 115 84 67905&lt;/li&gt;
-&lt;li&gt;claire.chambers@nottingham.ac.uk&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Data needs/awareness
-
-&lt;ul&gt;
-&lt;li&gt;Learn about Insmart from Gavin Long - help to climb learning curve&lt;/li&gt;
-&lt;li&gt;Request for access to AddressBase for the Nottingham area submitted to OS, approved and data in the post!&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Develop short-term plan for me
-
-&lt;ul&gt;
-&lt;li&gt;Described in /home/arb/ownCloud/Nottingham/LLUCAS/Sprints/Sprint01/ARB_ProofOfConceptProject.md&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Create two project summaries for MSc project using AddressBase (one to emulate InSMART).
-
-&lt;ul&gt;
-&lt;li&gt;Described in /home/arb/ownCloud/Nottingham/LLUCAS/Sprints/Sprint01/ABP&lt;em&gt;MSc&lt;/em&gt;projects.md&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Tasks rolled over for the next sprint&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Infrastructure - software environment, processing and repository
-
-&lt;ul&gt;
-&lt;li&gt;Other longer term data repository issues Darren is involved in&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;contact David Holland and Isabel Sargent @ OSGB. 
-
-&lt;ul&gt;
-&lt;li&gt;Mention my name and ask if they can discuss what has been happening with their 3D city models research. I know Bournemouth was well covered in research (10 years ago ish) but it would be great to find out if/where this has been rolled out to. Also if they have plans could we ask they consider Nottingham etc. I have not kept  up with what has been happening in Photogrammetric Services at OS (and what LiDAR they have been looking at) and so would be good to know.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Retrospective&lt;/h1&gt;
-
-&lt;p&gt;A general review of thoughts/issues etc that summarise outcomes from the sprint and to take forward to the next sprint.&lt;/p&gt;
-
-&lt;h2&gt;What went well?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Building up relationships with people
-
-&lt;ul&gt;
-&lt;li&gt;Gavin Long&lt;/li&gt;
-&lt;li&gt;Lauren Halsted&lt;/li&gt;
-&lt;li&gt;John Milner (Systems Development Officer - Geography)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Accessing Address base data from OS&lt;/li&gt;
-&lt;li&gt;Potential MSc student (Jordan Clydesdale) to look at AddressBase elements in InSMART&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;What have we learnt?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We can add some value to the housing metric produced by Gavin Long in terms of processing of O/S MasterMap data and integration of AddressBase Premium&lt;/li&gt;
-&lt;li&gt;If the RSS rendering of external content is reasonable then internal CMS system may be OK&lt;/li&gt;
-&lt;li&gt;The repository landscape has, inevitably, improved in the last few years: The EU FP7 project &lt;a href=&quot;http://zenodo.org/faq&quot;&gt;Zenodo&lt;/a&gt; is a good example&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;What could we do better?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;There seems to be some uncertainty in terms of collaborative environments and sharepoint use with the university - this is likely to get worse for users outside the Nottingham domains.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;What still puzzles us?&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;What is going on in the university in terms of data repositories, open science, collaborative working (sharepoint?)
-
-&lt;ul&gt;
-&lt;li&gt;Additionally how any developments can be used externally&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Workflows. Jeremy said to get in touch with Didier Libervichy. He is a spatial statistician working on quality and uncertainty issues in workflows. &lt;/li&gt;
-&lt;li&gt;Databases - Oracle/Postres/Nosql - where to go. What to use&lt;/li&gt;
-&lt;li&gt;How does the CMS system deal with harvesting content from external or internal systems (bibliographies, papers, sharepoint, slideshare) and promoting content on other frameworks (twitter, facebook (please have some automated system so I don;t have to do anything in facebook))&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;What is blocking activity&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CMS training - I am booked for April and have flagged a position for any Feb/March dropouts. This is unlikely to match to Darrens timeframe.
-
-&lt;ul&gt;
-&lt;li&gt;Jemma has kindly agreed to host content until training has been approved.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;I need to discuss with Darren what the external hosting requirements are. Are we going to put content in slideshare, scribd, youtube, mendeley/zotero? If we are, then we should get a shortlist of the ones we will use so that the &lt;em&gt;Web Team&lt;/em&gt; can see how they can render any data in an RSS feed.&lt;/li&gt;
-&lt;li&gt;An external landing page url. http://llucas.info/&lt;/li&gt;
-&lt;li&gt;For the MSc student we would need Darrens approval.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1&gt;Task summary&lt;/h1&gt;
-
-&lt;h2&gt;Create content for and deliver project web-page (need a landing page for phds)&lt;/h2&gt;
-
-&lt;p&gt;Content has been created for the website in /home/arb/ownCloud/Nottingham/LLUCAS/Sprints/Sprint01/20150204&lt;em&gt;LLUCAS&lt;/em&gt;Website_Content.md with supporting images in /home/arb/ownCloud/Nottingham/LLUCAS/Sprints/Sprint01/Outputs. These have been passed over to Darren for review. This should make it significantly easier for me to hand this content over to someone to put onto the website (if I am not allowed to self host). &lt;/p&gt;
-
-&lt;p&gt;I have been booked on the April course but have flagged to see if a position will become available &lt;/p&gt;
-
-&lt;h3&gt;General CMS fitness for purpose&lt;/h3&gt;
-
-&lt;p&gt;I have spoken to John Mitchell and Jemma to try to determine what the CMS does and need to determine if it is fit for what the project wants to do. &lt;/p&gt;
-
-&lt;p&gt;Like any CMS it should provide an easy way to host text and content supported by a backend database. The issues come when we consider the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;University branding&lt;/li&gt;
-&lt;li&gt;URL of any landing page&lt;/li&gt;
-&lt;li&gt;Social media integration&lt;/li&gt;
-&lt;li&gt;If the system can be extended (plugins)&lt;/li&gt;
-&lt;li&gt;Licensing&lt;/li&gt;
-&lt;li&gt;Automated harvesting of other content on the web&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The last two points are probably the most important. &lt;/p&gt;
-
-&lt;p&gt;Keeping everything in the university CMS has some advantages - particularly in terms of longevity and archiving after the project concludes. However, if we need to hand-crank pages and content because we can&amp;#39;t harvest information stored elsewhere on the web (such as project twitter feeds, documents on scribd, presentations on slideshare, etc. ) then it becomes a burden.&lt;/p&gt;
-
-&lt;p&gt;Availability of funcationality provides us with 3 options:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Use the university CMS&lt;/li&gt;
-&lt;li&gt;Host our own CMS infrastructure internally (this might be unlikely - although there are internal websites that use their own CMS)&lt;/li&gt;
-&lt;li&gt;Host our own CMS infrastructure externally&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I had a meeting with Jemma on 20150209 to discuss these issues.&lt;/p&gt;
-
-&lt;h4&gt;Branding&lt;/h4&gt;
-
-&lt;p&gt;As this is a project there are no major branding restrictions&lt;/p&gt;
-
-&lt;h4&gt;Landing page&lt;/h4&gt;
-
-&lt;p&gt;This is flexible: We can buy our own unique url and point to this from an internal host.&lt;/p&gt;
-
-&lt;p&gt;I would recommend this - this means we can use something internally and point to the external link. If the CMS does not do what we want we have the flexibility to change this external page in any way we saee fit. http://llucas.info/ is free.&lt;/p&gt;
-
-&lt;h4&gt;Archiving&lt;/h4&gt;
-
-&lt;p&gt;If we host externally at project completion we can &lt;em&gt;scrape&lt;/em&gt; the external site and host back within Nottingham (or deposit in the British Library).&lt;/p&gt;
-
-&lt;h4&gt;Social media&lt;/h4&gt;
-
-&lt;p&gt;The current CMS supports LinkedIn and Twitter connections. There is no internal demand for facebook (which I think is a good thing).&lt;/p&gt;
-
-&lt;h4&gt;Automated harvesting of content&lt;/h4&gt;
-
-&lt;p&gt;Jemma said this is not supported by the CMS. Although the CMS does have some plugins and can be extended. I followed this up with the web-team (Jemma said to speak to David Aldred, but I ended up speaking to one of his colleagues who was very helpful). They said they have an RSS feed reader that can be used to render content from external systems - this may be perfect. However, we do need to see examples of how this content would be rendered. &lt;/p&gt;
-
-&lt;p&gt;Requirements - make a list of external hosting services for content.&lt;/p&gt;
-
-&lt;h4&gt;Licensing&lt;/h4&gt;
-
-&lt;p&gt;There doesn&amp;#39;t seem to be any strategy on licensing.&lt;/p&gt;
-
-&lt;p&gt;As we are starting to generate content, including illustrations, we should also consider what we are going to do with this content. I would strongly advocate that any original content is hosted on Wikimedia commons under either a &lt;a href=&quot;https://creativecommons.org/licenses/by/3.0/&quot;&gt;CC-BY&lt;/a&gt; or a &lt;a href=&quot;https://creativecommons.org/choose/zero/&quot;&gt;CC0&lt;/a&gt; &lt;a href=&quot;http://www.dancohen.org/2013/11/26/cc0-by/&quot;&gt;(+BY)&lt;/a&gt; licence. Where there is a clear author then let them place it on there on user account. Where it is unclear host it on a project account. I would also recommend embedding the licence and attribution into the image or graphic - this means that re-users are encouraged to leave it in (and thereby reference the source - completing their side of the licence bargain). This is how I have started to host &lt;a href=&quot;https://commons.wikimedia.org/wiki/File:SQL_Joins.svg&quot;&gt;my more recent content on wikimedia commons&lt;/a&gt; (see Figure \ref{SQLJOIN}).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/SQL_Joins.svg/1000px-SQL_Joins.svg.png&quot; alt=&quot;my more recent content on wikimedia commons\label{SQLJOIN}&quot;&gt;&lt;/p&gt;
-
-&lt;h2&gt;Infrastructure&lt;/h2&gt;
-
-&lt;p&gt;Caveat - we could take everything outside of university infrastructure. I have made the assumption we want to do everything in collaboration with the university. If there are too many compromises then we can review this.&lt;/p&gt;
-
-&lt;p&gt;Data and server environments - this would be best co-ordinated with the &lt;strong&gt;virtualisation farm&lt;/strong&gt;. This is managed by &lt;em&gt;Chris Parry&lt;/em&gt; (who is head of partnering and has responsibility for the university data repository: chris.parry@nottingham.ac.uk - +44 115 84 13196). A meeting will be convened with Chris. &lt;/p&gt;
-
-&lt;p&gt;Internal Workflow environments. Jeremy said to get in touch with Didier Libervichy. He is a spatial statistician working on quality and uncertainty issues in workflows. &lt;/p&gt;
-
-&lt;h3&gt;Email to Chris Parry&lt;/h3&gt;
-
-&lt;p&gt;Title: University Data Repositories&lt;/p&gt;
-
-&lt;p&gt;Dear Chris,&lt;/p&gt;
-
-&lt;p&gt;John Milner passed me your details.&lt;/p&gt;
-
-&lt;p&gt;My name is Anthony Beck I am a recently appointed part-time Research Fellow on the &lt;a href=&quot;http://www.leverhulme.ac.uk/&quot;&gt;Leverhulme Trust&lt;/a&gt; funded project &lt;a href=&quot;http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx&quot;&gt;Sustaining Urban Habitats - an interdisciplinary approach&lt;/a&gt; led by &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;. I started last week.&lt;/p&gt;
-
-&lt;p&gt;As part of this project we are planning on building a data repository and data processing environment (distinguishing between our archiving and metadata commitments and our data processing requirements). On my &lt;a href=&quot;http://dartportal.leeds.ac.uk&quot;&gt;last project I built a CKAN based data repository&lt;/a&gt; with a rich metadata environment - I am in negotiation with Leeds library about migrating this over to their new institutional repository and minting DOIs for the different research objects. I digress.&lt;/p&gt;
-
-&lt;p&gt;I appreciate that this is a rapidly changing area - especially as RCUK and the funding councils develop guidance. To avoid re-inventing the wheel I would like to find out:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;what data repository and analysis initiatives are ongoing in the university&lt;/li&gt;
-&lt;li&gt;get guidance in terms of university approved licensing and metadata options&lt;/li&gt;
-&lt;li&gt;what accreditation systems may be in place (I&amp;#39;m trying to avoid this as much as possible by taking an Open Science route).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I am also interested in what collaborative tools are available in and supported by the university (from desktop (using sharepoint, google docs, markdown, etc.) to analysis (taverna, alteryx)) and the server platforms for hosting such services (virtual, static etc.).&lt;/p&gt;
-
-&lt;p&gt;The project does have resources to contribute to some/all of these activities.&lt;/p&gt;
-
-&lt;p&gt;Would it be possible for you to point me in the direction of any supporting information for these activities. Alternatively we could meet up (I appreciate you are likely to have a busy schedule). I work 3 days a week (Monday to Wednesday).&lt;/p&gt;
-
-&lt;p&gt;I will follow this message up with a call.&lt;/p&gt;
-
-&lt;p&gt;Best wishes&lt;/p&gt;
-
-&lt;p&gt;Ant&lt;/p&gt;
-
-&lt;h2&gt;Data needs/awareness&lt;/h2&gt;
-
-&lt;p&gt;The OS have kindly given us access to AddressBase Premium and AddressBase Plus&lt;/p&gt;
-
-&lt;h3&gt;Chat with Gavin - summarise&lt;/h3&gt;
-
-&lt;h3&gt;Accessing AddressBase Premium&lt;/h3&gt;
-
-&lt;p&gt;AddressBase Premium will add some significant value to the housing work. AddressBase Premium (ABP) as a product is managed by Geoplace a consortium of Ordnance Survey and Local Government. Unfortunately, there is no direct mechanism in place to access ABP directly for academic research. Some of the issues and solutions are described in &lt;a href=&quot;https://karlhennermann.wordpress.com/2014/05/14/getting-uk-address-data-for-academic-research/&quot;&gt;Karl Hennerman&amp;#39;s blog&lt;/a&gt;. The upshot is we need to send a brief e-mail to Ordnance Survey (universityenquiries@ordnancesurvey.co.uk) requesting access to the data.&lt;/p&gt;
-
-&lt;h4&gt;Email to OS&lt;/h4&gt;
-
-&lt;p&gt;To whom it may concern,&lt;/p&gt;
-
-&lt;p&gt;Request for academic use of AddressBase Premium and AddressBase Plus data from within the &lt;a href=&quot;https://secure.nottinghamcity.gov.uk/mRegisterOfficeBooking/NottinghamCityCouncilAdministrativeBoundary.pdf&quot;&gt;city of Nottingham boundary&lt;/a&gt; for use within the InSMART and Sustaining Urban Habitats projects at Nottingham University.&lt;/p&gt;
-
-&lt;p&gt;Principal Investigator: &lt;a href=&quot;http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson&quot;&gt;Prof Darren Robinson&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Theme Leaders: &lt;a href=&quot;http://www.nottingham.ac.uk/geography/people/doreen.boyd&quot;&gt;Dr Doreen Boyd&lt;/a&gt; and &lt;a href=&quot;http://www.nottingham.ac.uk/geography/people/jeremy.morley&quot;&gt;Jeremy Morley&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Data Contact: Dr Anthony Beck (anthony.beck@nottingham.ac.uk)&lt;/p&gt;
-
-&lt;p&gt;The &lt;a href=&quot;http://www.insmartenergy.com/&quot;&gt;InSMART project&lt;/a&gt; brings together cities, scientific and industrial organizations in order to implement a comprehensive model for enhancing sustainable planning addressing the current and future city energy needs through an integrative and multidisciplinary planning approach. This approach will identify the optimum mix of short, medium and long term measures for a sustainable energy future, addressing the efficiency of energy flows across various city sectors with regards to economic, environmental and social criteria and paving the way towards actual implementation of priority actions.&lt;/p&gt;
-
-&lt;p&gt;Extensive technical expertise and specialised tools and models will be used to create a platform for implementation of the project idea. The approach will be used by four city partners in Greece, Italy, the UK and Portugal, all actively involved in developing a more sustainable energy system. Each city’s energy system will be analysed, covering all relevant sectors and a comprehensive GIS energy database will be developed. Apart from being a valuable planning tool the GIS database will inform and be linked to the TIMES energy systems model. This will be used to analyse the cost-optimal mix of measures required to meet sustainable energy targets taking into account exogenous parameters (e.g. environmental targets, city expansion). These measures will be further assessed with respect to non-technical criteria using a multi-criteria decision making method (PROMITHEE) that will address economic, environmental as well as social issues.&lt;/p&gt;
-
-&lt;p&gt;The Nottingham component of this research project utilises National Land and Property Gazetteer (NLPG) data provided by the Nottingham City Council. The NLPG data is now exposed through the AddressBase family of data provided by Geoplace. By using AddressBase Premium and AddressBase Plus products the InSMART project will be able to build a more scalable research platform that can be seamlessly applied to different UK cities and respond to data changes more effectively (by applying epoch based Change only Updates).&lt;/p&gt;
-
-&lt;p&gt;These benefits will also apply to the Sustaining Urban Habitats project (website is currently under construction). Sustaining Urban Habitats: An Interdisciplinary Approach is funded by a prestigious Leverhulme Programme Grant. The ambitious aim of this project is to transform our understanding of how sustainable cities, and by extension our species, can be. This project commenced in early 2015 and will complete in 2019. &lt;/p&gt;
-
-&lt;p&gt;AddressBase data will prove to be a crucial resource for the &lt;em&gt;Measurement and Data&lt;/em&gt; themes in this project.&lt;/p&gt;
-
-&lt;p&gt;I look forward to hearing from you. If you require further information on either project please do not hesitate to ask. &lt;/p&gt;
-
-&lt;p&gt;Yours sincerely&lt;/p&gt;
-
-&lt;p&gt;Anthony Beck&lt;/p&gt;
-
-&lt;p&gt;Research Fellow: University of Nottingham.&lt;/p&gt;
-
-&lt;h4&gt;Bob Barr and &lt;a href=&quot;http://www.slideshare.net/geocommunitylive/bob-barr-what-are-core-reference-geographies&quot;&gt;core reference geographies&lt;/a&gt;&lt;/h4&gt;
-
-&lt;p&gt;Karl&amp;#39;s website had a reference to Bob Barr and ABPREM which I followed up. I know Bob had a pop at the UK addressing infrastructure and sees addresses as a &lt;em&gt;Core Reference Geography&lt;/em&gt;. These are geographic datasets which:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Are definitive&lt;/li&gt;
-&lt;li&gt;Should be collected and maintained once and used many times&lt;/li&gt;
-&lt;li&gt;Are Natural monopolies&lt;/li&gt;
-&lt;li&gt;Have variable value in different applications&lt;/li&gt;
-&lt;li&gt;Have highly elastic demand&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;He argues that the following are candidate core reference geographies:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Geodetic Framework&lt;/li&gt;
-&lt;li&gt;Topographic Mapping (including height)&lt;/li&gt;
-&lt;li&gt;Geographic Names&lt;/li&gt;
-&lt;li&gt;Addresses&lt;/li&gt;
-&lt;li&gt;Streets&lt;/li&gt;
-&lt;li&gt;Land and Property Ownership&lt;/li&gt;
-&lt;li&gt;Hydrology / Hydrography&lt;/li&gt;
-&lt;li&gt;Statistical Boundaries&lt;/li&gt;
-&lt;li&gt;Administrative Boundaries&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Much of this data is already available and collected by Public Bodies (some of whom may be independent trading arms - such as the Ordnance Survey). Some of these data may already being opened up as part of the UK governments Open Data agenda. Some of this data is very relevant to the projects. This is tied in with the view of Business Innovation and Skills and their white paper on &lt;a href=&quot;https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/274979/bis-14-513-open-national-address-gazetteer.pdf&quot;&gt;&lt;em&gt;An open National Address Gazetteer&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2&gt;Modelling&lt;/h2&gt;
-
-&lt;p&gt;We need data that will support the following modelling exercises (which in turn go through the simulations environments)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Model
-
-&lt;ul&gt;
-&lt;li&gt;Building&lt;/li&gt;
-&lt;li&gt;Energy demands&lt;/li&gt;
-&lt;li&gt;Multi modal transport
-
-&lt;ul&gt;
-&lt;li&gt;4 stage modelling&lt;/li&gt;
-&lt;li&gt;6 stage modelling&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;District heating networks&lt;/li&gt;
-&lt;li&gt;Demands from LV networks&lt;/li&gt;
-&lt;li&gt;Demands from storage&lt;/li&gt;
-&lt;li&gt;Model land-user transport interactions&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Notes about the different general data categories&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Data differences
-
-&lt;ul&gt;
-&lt;li&gt;Calibration data&lt;/li&gt;
-&lt;li&gt;Evaluation data&lt;/li&gt;
-&lt;li&gt;Sensor data
-
-&lt;ul&gt;
-&lt;li&gt;In terms of sensoring results&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Data agencies
-
-&lt;ul&gt;
-&lt;li&gt;Traffic count&lt;/li&gt;
-&lt;li&gt;Ofgem&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Other activities TBC&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Speak to the photogrammetry dept in Stuttgart
-
-&lt;ul&gt;
-&lt;li&gt;Developing an ADE extension to CityGML for Stuttgart&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Doreen - Speak to Geomatics group
-
-&lt;ul&gt;
-&lt;li&gt;Kyle&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2&gt;Develop short-term plan for me&lt;/h2&gt;
-
-&lt;p&gt;Flesh out in week 2&lt;/p&gt;
-
-&lt;h2&gt;Other longer term data repository issues Darren is involved in&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Strategic research and innovation agenda&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Darren is writing this&lt;/li&gt;
-&lt;li&gt;Would like
-
-&lt;ul&gt;
-&lt;li&gt;2 or 3 city observatories&lt;/li&gt;
-&lt;li&gt;Very highly instrumented&lt;/li&gt;
-&lt;li&gt;Put in a strong bid for Nottingham&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Funding
-
-&lt;ul&gt;
-&lt;li&gt;Europe&lt;/li&gt;
-&lt;li&gt;ESRC&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Annex 66&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Behavioural modelling&lt;/li&gt;
-&lt;li&gt;Put together a data repository
-
-&lt;ul&gt;
-&lt;li&gt;Can make the data available to the academic community&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Conversation around this - later in the week&lt;/li&gt;
-&lt;li&gt;I want to think about this in terms of the carrot and stick approach to encouraging participation - the strategy and firewalling option has implications for the licenses. There may be a short-term/long-term incompatibilities.&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 02 Feb 2015 00:00:00 +0000</pubDate>
-        <link>http://orcid.org/0000-0002-2991-811X/LLUCAS-Sprint01/</link>
-        <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/LLUCAS-Sprint01/</guid>
-      </item>
-    
-      <item>
-        <title>Abplus From Abprem</title>
-        <description>&lt;p&gt;Date: 2014-09-25 14:47
-Title: Creating AddressBase+ from AdressBase Premium
-Category: GIS, addressing, UK
-Tags:  GIS, addressing, UK&lt;/p&gt;
-
-&lt;h1&gt;Creating AB+ from ABPrem&lt;/h1&gt;
-
-&lt;p&gt;Use the &lt;a href=&quot;http://www.ordnancesurvey.co.uk/docs/support/os-addressing-products-attribute-mapping.pdf&quot;&gt;OS Addressing products attribute mapping&lt;/a&gt; and the &lt;a href=&quot;http://www.ordnancesurvey.co.uk/docs/technical-specifications/addressbase-premium-technical-specification-csv.pdf&quot;&gt;AddressBase technical specification&lt;/a&gt; as references.&lt;/p&gt;
-
-&lt;p&gt;The debate about ABP and AB+ still goes on. To help this I have pulled together a query to get an AB+ view from the ABP data. It&amp;#39;s not an exact match (it&amp;#39;s just quick and dirty) but most things are there.&lt;/p&gt;
-
-&lt;p&gt;Count of records in ABPREM_BLPU&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ABPREM_BLPU&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;giving 311159. This is an important figure. The end should match this!&lt;/p&gt;
-
-&lt;h2&gt;BLPU and DPA&lt;/h2&gt;
-
-&lt;p&gt;According to the technical spec there is a 1:(0,1) relationship between BLPU and DPA&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CHANGE_TYPE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BLPU_STATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BLPU_STATE_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PARENT_UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_COORDINATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y_COORDINATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RPC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LOCAL_CUSTODIAN_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;START_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;END_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LAST_UPDATE_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ENTRY_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTAL_ADDRESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_LOCATOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MULTI_OCC_COUNT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RM_UDPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEPARTMENT_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SUB_BUILDING_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BUILDING_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BUILDING_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEP_THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DOU_DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POST_TOWN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_TYPE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_DEP_THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_DOU_DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_POST_TOWN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PO_BOX_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PROCESS_DATE&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABPREM_BLPU&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;So lets count&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABPREM_BLPU&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;giving 311160. This means instead of a 1:1 match between BLPU and DPA which is what the model states we have a 1: many relationship.&lt;/p&gt;
-
-&lt;p&gt;Lets look at this&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;having&lt;/span&gt; 
-        &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Produces 69 duplicate DPAs with the same UPRN. This is not good news.&lt;/p&gt;
-
-&lt;p&gt;Lets look at some of these:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;having&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;order&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;These appear to be duplicate records in every respect EXCEPT they have a different number in the PRO_ORDER field. We can get around this by using a distinct select.&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;distinct&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dup&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;dup&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;We should be able to slot this into the earlier query&lt;/p&gt;
-
-&lt;p&gt;Lets look at this&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;distinct&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;having&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Produces O duplicate DPAs with the same UPRN. This is much better news.&lt;/p&gt;
-
-&lt;p&gt;There are ways to fix (including deleting duplicates in the source) this but I&amp;#39;m going for quick and dirty. I will materialise the table and then delete the duplicates:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Materialise the table as SPA&lt;em&gt;BLPU&lt;/em&gt;DPA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CHANGE_TYPE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BLPU_STATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BLPU_STATE_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PARENT_UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;X_COORDINATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Y_COORDINATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RPC&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LOCAL_CUSTODIAN_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;START_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;END_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LAST_UPDATE_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ENTRY_DATE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTAL_ADDRESS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_LOCATOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;MULTI_OCC_COUNT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;RM_UDPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEPARTMENT_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SUB_BUILDING_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BUILDING_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BUILDING_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEP_THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DOU_DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POST_TOWN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_TYPE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_DEP_THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_THOROUGHFARE_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_DOU_DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_DEP_LOCALITY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WELSH_POST_TOWN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PO_BOX_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PROCESS_DATE&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;ABPREM_BLPU&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;ABPREM_DELIVERYPTADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;blpu&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;and delete the duplicates&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;c1&quot;&gt;--------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;-- FORCE UPRN to be unique!&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;--------------------------------------------------------&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;delete&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rowid&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rowid&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;minus&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rowid&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;we can now count the table&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;ol&gt;
-&lt;li&gt;thats better&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;This is a problem with AddressPlace Premium). According to the &lt;a href=&quot;http://www.ordnancesurvey.co.uk/docs/technical-specifications/addressbase-premium-technical-specification-csv.pdf&quot;&gt;ER model&lt;/a&gt;^[see page 6] there should be 1:(0,1) relationship between BLPU and DPA tables. This is clearly wrong&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h2&gt;CLASSIFICATION and BLPU&lt;/h2&gt;
-
-&lt;p&gt;According to the technical spec there is a 1:many relationship between BLPU and Classification &lt;/p&gt;
-
-&lt;p&gt;Lets look at the many side of things.....&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_CLASSIFICATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;having&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;There are 576 multiple classifications from 4.2 million&lt;/p&gt;
-
-&lt;p&gt;So this is going to be an annoyingly regular thing. We can get rid of the 1 to manys with the following:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLASSIFICATION_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;ABPREM_CLASSIFICATION&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;which allows us to join to SPA&lt;em&gt;BLPU&lt;/em&gt;DPA as follows&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLASSIFICATION_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_CLASSIFICATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Application cross reference&lt;/h2&gt;
-
-&lt;p&gt;According to the technical spec there is a 1:many relationship between BLPU and Application cross reference&lt;/p&gt;
-
-&lt;p&gt;The primary fields are UPRN, SOURCE and CROSS&lt;em&gt;REFERENCE. Ideally each UPRN, SOURCE, CROSS&lt;/em&gt;REFERENCE combination should be unique:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;select 
-    UPRN,
-        SOURCE, 
-        CROSS_REFERENCE,
-        count(1)
-    from 
-        ABPREM_APPXREF
-    group by 
-        UPRN,
-        SOURCE, 
-        CROSS_REFERENCE
-    having 
-        count (UPRN) &amp;gt; 1);
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Produces duplicates. Again not good :-(&lt;/p&gt;
-
-&lt;p&gt;The best way of dealing with this is to look at it as a pivot table. We can pivot this data out and give it the required headings using the query below:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_APPXREF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; 
-            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MA&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MT&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MI&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VC&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VN&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OW&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OP&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;which allows us to join to SPA&lt;em&gt;BLPU&lt;/em&gt;DPA as follows:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
-                &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-                    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-                        &lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                        &lt;span class=&quot;n&quot;&gt;ABPREM_APPXREF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;
-                &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; 
-                    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MA&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MT&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MI&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VC&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VN&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OW&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OP&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;ORGANISATION and BLPU&lt;/h2&gt;
-
-&lt;p&gt;According to the technical spec there is a 1:many relationship between BLPU and ORGANISATION &lt;/p&gt;
-
-&lt;p&gt;Lets look at the many side of things.....&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_ORGANISATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;having&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;There are 4 multiple ORGANISATIONs from 87,772.&lt;/p&gt;
-
-&lt;p&gt;We can get rid of the 1 to manys with the following:&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;ABPREM_ORGANISATION&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-        &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;which allows us to join to SPA&lt;em&gt;BLPU&lt;/em&gt;DPA as follows&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_ORGANISATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;LPI and BLPU&lt;/h2&gt;
-
-&lt;p&gt;According to the technical spec there is a 1:many relationship between BLPU and LPI &lt;/p&gt;
-
-&lt;p&gt;However, we already have the table ABP&lt;em&gt;SINGLE&lt;/em&gt;ADDRESS which should have resolved most of these many issues.&lt;/p&gt;
-
-&lt;p&gt;Lets look at the many side of things.....&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-    &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABP_SINGLE_ADDRESS&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;having&lt;/span&gt; 
-                &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This is null. So we can join the tables together with SPA&lt;em&gt;BLPU&lt;/em&gt;DPA as follows&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_TEXT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_START_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_START_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_END_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_END_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_TEXT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_START_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_START_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_END_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_END_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;STREET_DESCRIPTION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LOCALITY_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_LOCATOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GEO_SINGLE_ADDRESS_LABEL&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABP_SINGLE_ADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Bringing it all together&lt;/h2&gt;
-
-&lt;p&gt;Basically just plug them all together into a big long multiple join statement:-)&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_TEXT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_START_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_START_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_END_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_END_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_TEXT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_START_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_START_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_END_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_END_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;STREET_DESCRIPTION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LOCALITY_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_LOCATOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GEO_SINGLE_ADDRESS_LABEL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLASSIFICATION_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_CLASSIFICATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;ABPREM_ORGANISATION&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;ABP_SINGLE_ADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-            &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
-                &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-                    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-                        &lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                        &lt;span class=&quot;n&quot;&gt;ABPREM_APPXREF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;
-                &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; 
-                    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MA&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MT&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MI&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VC&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VN&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OW&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                    &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OP&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;This can be used to create a new table SPA&lt;em&gt;ABPLUS&lt;/em&gt;CLONE&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;create&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;table&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SPA_ABPLUS_CLONE&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; 
-
-    &lt;span class=&quot;k&quot;&gt;select&lt;/span&gt;
-        &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_TEXT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_START_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_START_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_END_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;SAO_END_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_TEXT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_START_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_START_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_END_NUMBER&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PAO_END_SUFFIX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;STREET_DESCRIPTION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;LOCALITY_NAME&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;POSTCODE_LOCATOR&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;LPI_POSTCODE_LOCATOR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;GEO_SINGLE_ADDRESS_LABEL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;FROM&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;SPA_BLPU_DPA&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CLASSIFICATION_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;CLASS&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                    &lt;span class=&quot;n&quot;&gt;ABPREM_CLASSIFICATION&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-                &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;max&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ORGANISATION&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                    &lt;span class=&quot;n&quot;&gt;ABPREM_ORGANISATION&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;group&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;by&lt;/span&gt; 
-                    &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;org&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;ABP_SINGLE_ADDRESS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lpi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;LEFT&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;OUTER&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;JOIN&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-                &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;
-                &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt;
-                    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; 
-                        &lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                            &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; 
-                            &lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;
-                        &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; 
-                            &lt;span class=&quot;n&quot;&gt;ABPREM_APPXREF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                &lt;span class=&quot;n&quot;&gt;pivot&lt;/span&gt;
-                    &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;min&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;CROSS_REFERENCE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;SOURCE&lt;/span&gt;
-                    &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; 
-                        &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MA&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ADDRESS_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MT&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_TOPO_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666MI&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;OS_ROADLINK_TOID&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VC&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_CT_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666VN&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;VOA_NDR_RECORD&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OW&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WARD_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-                        &lt;span class=&quot;s1&quot;&gt;&amp;#39;7666OP&amp;#39;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;AS&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;PARISH_CODE&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)))&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;ON&lt;/span&gt;
-            &lt;span class=&quot;n&quot;&gt;blpudpa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;xref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;UPRN&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;commit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;To wrap this all up we should then count the records&lt;/p&gt;
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sql&quot; data-lang=&quot;sql&quot;&gt;&lt;span class=&quot;k&quot;&gt;Select&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;count&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SPA_ABPLUS_CLONE&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;at 311159 records. Our work here is done.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 26 Sep 2014 00:00:00 +0100</pubDate>
-        <link>http://orcid.org/0000-0002-2991-811X/ABPlus-From-ABPREM/</link>
-        <guid isPermaLink="true">http://orcid.org/0000-0002-2991-811X/ABPlus-From-ABPREM/</guid>
       </item>
     
   </channel>

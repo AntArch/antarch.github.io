@@ -2,12 +2,12 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/Ontology-LUCAS-Links/</loc>
-    <lastmod>2015-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-12-15T10:47:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/LLUCAS-Reading-List/</loc>
-    <lastmod>2015-12-15T00:00:00+00:00</lastmod>
+    <lastmod>2015-12-15T10:47:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>http://orcid.org/0000-0002-2991-811X/Migrating-Research-Objects-From-DARTPortal-To-Leeds-Institutional-Repository/</loc>
+    <lastmod>2015-03-22T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://orcid.org/0000-0002-2991-811X/LLUCAS-Sprint04/</loc>
     <lastmod>2015-03-16T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
@@ -28,6 +33,11 @@
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/Installing-Guest-Additions-For-OSGEO8/</loc>
     <lastmod>2015-03-11T00:00:00+00:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://orcid.org/0000-0002-2991-811X/What-does-a-global-address-framework-look-like/</loc>
+    <lastmod>2015-03-05T00:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -152,25 +162,35 @@
   </url>
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/Evidence-Based-Heritage-Management/</loc>
-    <lastmod>2014-01-04T00:00:00+00:00</lastmod>
+    <lastmod>2014-01-04T16:00:00+00:00</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/404.html</loc>
-    <lastmod>2015-03-16T18:16:32+00:00</lastmod>
+    <lastmod>2015-03-22T20:12:47+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/about/</loc>
-    <lastmod>2015-03-16T18:16:32+00:00</lastmod>
+    <lastmod>2015-03-22T20:12:47+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://orcid.org/0000-0002-2991-811X/</loc>
-    <lastmod>2015-03-16T18:16:32+00:00</lastmod>
+    <lastmod>2015-03-22T20:12:47+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://orcid.org/0000-0002-2991-811X/presentations/20150305_AddressDay/20150305_ARB_DIAS_PresentationbeigeCube.html</loc>
+    <lastmod>2015-03-05T08:23:53+00:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://orcid.org/0000-0002-2991-811X/presentations/20150305_AddressDay/template-revealjs.html</loc>
+    <lastmod>2014-07-20T21:45:37+01:00</lastmod>
+    <priority>0.6</priority>
   </url>
 </urlset>

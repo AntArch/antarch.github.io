@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Migrating Research Objects From DARTPortal To Leeds Institutional Repository – Ant Beck – Research Fellow (Nottingham University), Director (GeoLytics Ltd.)</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="Details about how the research objects held on DARTPortal we&#39;re migrating to the Leeds Institutional repository.
+" />
+    <meta property="og:description" content="Details about how the research objects held on DARTPortal we&#39;re migrating to the Leeds Institutional repository.
+" />
+    
+    <meta name="author" content="Ant Beck" />
+
+    
+    <meta property="og:title" content="Migrating Research Objects From DARTPortal To Leeds Institutional Repository" />
+    <meta property="twitter:title" content="Migrating Research Objects From DARTPortal To Leeds Institutional Repository" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Ant Beck - Research Fellow (Nottingham University), Director (GeoLytics Ltd.)" href="/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar"><img src="https://avatars3.githubusercontent.com/u/342277?v=3&s=460" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Ant Beck</a></h1>
+            <p class="site-description">Research Fellow (Nottingham University), Director (GeoLytics Ltd.)</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="page">
+
+  <h1>Migrating Research Objects From DARTPortal To Leeds Institutional Repository</h1>
+
+  <div class="entry">
+    <p>Details about how the research objects held on <a href="http://dartportal.leeds.ac.uk">DARTPortal</a> we&#39;re migrating to the Leeds Institutional repository.</p>
+
+<p>\newpage</p>
+
+<h1>Background</h1>
+
+<p>The DART project established a data portal called <a href="http://dartportal.leeds.ac.uk">DARTPortal</a> to hold research outputs. This was based on the <a href="http://ckan.org/">CKAN data portal</a> provided by the Open Knowledge Foundation. The dedicated server has a postgresql instance and a <a href="https://dartportal.leeds.ac.uk/webdav/">webdav instance</a>. Bespoke ingest features were written by Dr Dave Harrison. The ingest element tools used file naming patterns to populate basic metadata for a collection with new metadata elements. Different elements in the resource name either contained the source data to enter into the metadata record for that object (i.e. date or location) or referred to a text file that contained multiple metadata elements relating to, for example, the types of processing applied to the resource. The metadata descriped this in the field <em>title.pattern</em> as follows:</p>
+
+<blockquote>
+<p>Where appropriate each resource has been named with the following pattern: DART<em><3 character sensor/collection name></em><spatial location><em><StartDateTime YYYYMMDD with optional HHMM></em><endDateTime YYYYMMDD with optional HHMM><em><stage PRO or RAW to refer to processed or raw data></em><other stuff>.<suffix>. Hence, the file DART<em>T3P</em>DDCF<em>20110823</em>20130106_PRO.csv refers to DART data collected using the T3P Imko soil moisture probes at Diddington Clay Field between 23rd August 2011 and 6th January 2013 which has been processed and is available in a comma separated text format.</p>
+</blockquote>
+
+<p>The [DART metadata schema and associated keyword lookups is documented online]. This documentation includes mappings from the DART metadata to other metadata schemas including:</p>
+
+<ul>
+<li>UK_AGMAP</li>
+<li>Dublin Core (text and RDF)</li>
+<li>The Archaeology Data Service (who chose to undertake a manual extract)</li>
+<li>Journal of Open Archaeological Data (for (semi) automated production of JOAD material)</li>
+<li>GEMINI</li>
+<li>E-Government</li>
+<li>Federal Geographic Data Committee</li>
+</ul>
+
+<p>The metadata schema used by DART is rich. However, the DART data portal is a temporary entity. It was hoped that the repository landscape would become more developed and that the data hosted at DARTPortal could be re-deposited in perpetuity elsewhere - ideally with a Digital Object Identifier (<a href="http://www.doi.org/">DOI</a>.</p>
+
+<p>For the past 18 months <a href="http://orcid.org/0000-0002-2991-811X">Anthony Beck</a> has been working with <a href="https://library.leeds.ac.uk/people/Graham-Blyth">Graham Blyth</a> and <a href="http://www.engineering.leeds.ac.uk/people/computing/staff/d.g.harrison">Dave Harrison</a> to ingest the research objects in DARTPortal into the new Leeds Institutional Repository. There are loads of benefits including preservation in perpetuity^[which does not mean forever], better uptime and signficantly a DOI for each resource (at the lowest level of granularity).</p>
+
+<p>Data requirements:</p>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="http://github.com/AntArch"><i class="svg-icon github"></i></a>
+
+<a href="http://linkedin.com/in/antbeck"><i class="svg-icon linkedin"></i></a>
+
+
+<a href="http://twitter.com/AntArch"><i class="svg-icon twitter"></i></a>
+
+
+        </footer>
+      </div>
+    </div>
+
+    
+
+  </body>
+</html>
