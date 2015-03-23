@@ -58,7 +58,7 @@ Essentially it requires the following:
 
 The metadata file is a flat structure that looks something like this:
 
-eprintid|rowid|documents.docid|documents.rowid|title|identifier|doi|funders
+eprintid|rowid|documentsdocid|documentsrowid|title|identifier|doi|funders
 ----|----|----|----|----|----|----|----
 1|1_0|||DART weather data|||SaHP
 1|1_1||||||AHRC
