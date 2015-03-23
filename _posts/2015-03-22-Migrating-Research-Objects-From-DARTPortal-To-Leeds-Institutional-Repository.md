@@ -58,24 +58,15 @@ Essentially it requires the following:
 
 The metadata file is a flat structure that looks something like this:
 
-|eprintid|rowid|documentsdocid|documentsrowid|title|identifier|doi|funders|
-|----|----|----|----|----|----|----|----|
-|1|10|||DART weather data|||SaHP|
-|1|11||||||AHRC|
-|1|12||||||EPSRC|
-
 eprintid|rowid|documents.docid|documents.rowid|title|identifier|doi|funders
 ----|----|----|----|----|----|----|----
+1|1_0|||DART weather data|||SaHP
+1|1_1||||||AHRC
+1|1_2||||||EPSRC
 1|1_3|1|1_0||||
 1|1_4|2|2_0||||
 1|1_5|3|3_0||||
 1|1_6|4|4_0||||
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 As can be seen the structure is a bit of a hack that allows 1 to many relational data to be expressed in a single flat file. The file is structured in the following ways:
 
