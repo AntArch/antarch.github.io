@@ -44,7 +44,7 @@ The metadata schema used by DART is rich. However, the DART data portal is a tem
 
 For the past 18 months [Anthony Beck](http://orcid.org/0000-0002-2991-811X) has been working with [Graham Blyth](https://library.leeds.ac.uk/people/Graham-Blyth) and [Dave Harrison](http://www.engineering.leeds.ac.uk/people/computing/staff/d.g.harrison) to ingest the research objects in DARTPortal into the new Leeds Institutional Repository. There are loads of benefits including preservation in perpetuity^[which does not mean forever], better uptime and signficantly a DOI for each resource (at the lowest level of granularity).
 
-Graham Blyth has been leading the development of the institutional repository for Leeds University. The have developed a metadata schema (which although not as rich as the DART schema has much in common). They also share a common structuring approach to DART where *research objects* are grouped into *collections*. 
+Graham Blyth has been leading the development of the institutional repository for Leeds University. They have developed a metadata schema (which although not as rich as the DART schema has much in common). They also share a common structuring approach to DART where *research objects* are grouped into *collections*. 
 
 # Bulk Ingest system for the Leeds Repository
 
@@ -68,6 +68,8 @@ eprintid|rowid|documents.docid|documents.rowid|title|identifier|doi|funders
 1|1_5|3|3_0||||
 1|1_6|4|4_0||||
 
+Unfortunately - I haven't been able to get Jekyll to render markdown tables properly.
+
 As can be seen the structure is a bit of a hack that allows 1 to many relational data to be expressed in a single flat file. The file is structured in the following ways:
 
 * Field *EPrintID* represents the identifier of the collection
@@ -76,30 +78,31 @@ As can be seen the structure is a bit of a hack that allows 1 to many relational
 * where there is **ONLY** an *EPrintID* and *RowID* then this contains metadata about the collection: 
 	* 1_0 is the default row and contains most of the metadata about the collection 
 	* 1_x is where there is a 1-many relationship in terms of required attributes for the collection metadata only
-		* Note that multiple 1- many attrbites for different fields can be held on the same 1_x row. Although I would expect that no problems would be caused if there was only 1 attribute held in each 1_x row (which would be easier to resreate in a relational model))
+		* Note that multiple 1- many attrributes for different fields can be held on the same 1_x row. Although I would expect that no problems would be caused if there was only 1 attribute held in each 1_x row (which would be easier to represent in a relational model))
 * *documents.docid* and *documents.rowid* refer to research objects within the collection. 
 	* If there are 1-many relationships about the data then we maintain the same documents.docid and increment the documents.rowid 
 
 # Mapping between the DART schema and the Leeds Institutional Repository schema
 
-I have started this - will finish off tonight. Mainly a 1-1 mapping. Nothing hugely unexpected.
+This has been started and is [documented online](https://docs.google.com/spreadsheets/d/1Zyx49aPpl8d1ud6TmQ6T-ohXq9LdlHPICkotE8MYh5E). However, it does require revision. I have just understoof the difference in the colour coding of the schema details given to me by Graham:
+
+* Red - compound primary key
+* Green - Collection metadata
+* Blue - Resource metadata
+
+(Forgive colour issues - I'm colour blind). This sheds a different light on things. For example different resources in our collection are collected at different dates. Hence our dates reflect differences at the resource level and not at the document level. 
+
+I need to think about this and review things - this will likely be in a week and a half (I'm on holiday next week)
+
+# Collection and folder physical preparation (points 1 and 2)
+
+This is done. Not a problem.
+
+# Metadata creation for ingest (point 3)
+
+The backend CKAN system is not ammenable to direct SQL extract - and the OAI-PMH in the system doesn;t do what we want it to do. Dave will create a python script that creates this metadata by parsing the collections and resources. Because we have a naming pattern this is fine (it basically repurposes the ingest system we used for CKAN and matches to the Leeds Schema)
 
 # What to do about the richer metadata held in DART
 
-Quite simply we should turn this into a text file and make it available through the repository. Each of these metadata records should have a row in the Leeds Institutional metadata file described above. It should be a csv file with header. The question is the degree of granularity (a record per research object or a record per collection). 
-
-# Dave/Graham- what I hope we should achieve.
-
-Getting the actual data prepared is a doodle - we've already done it. By giving him an account Graham can get access to the data folders via WebDAV. What is missing is the metadata summary for Leeds and a record of the DART metadata for each object/collection as a text file.
-
-## Metadata summary for Leeds
-
-I'd like to believe we can query this out directly from the back-end tables. Dave - can we have a crack at doing this tomorrow?
-
-## Metadata summary for each object/collection
-
-Do either of you have opinions on the degree of granularity? Or should we have our cake and eat it i.e. a single record for each object with a single metadata entry and a multi record object for the collection. This is in part going to be constrined by the ease of metadata creation. 
-
-Thoughts/preferences from either of you?
-
+Part of the python script will create a metadata file for each resource object with the following pattern (which might change) <resource name without suffix>&'_metadata.txt'. We will create this for each resource. 
 
