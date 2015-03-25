@@ -8,4 +8,4 @@ layout: post
 
 
 
-[What does a global address framework look like](http://antarch.github.io/presentations/20150305_AddressDay/20150305_ARB_DIAS_PresentationbeigeCube.html#/) a presentation I gave at the British Computing Society in London. 
+[What does a global address framework look like](http://antarch.github.io/presentations/20150305_ARB_DIAS_PresentationbeigeCube.html#/) a presentation I gave at the British Computing Society in London. 
