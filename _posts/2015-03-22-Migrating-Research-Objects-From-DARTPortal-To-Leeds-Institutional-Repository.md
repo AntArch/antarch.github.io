@@ -17,12 +17,12 @@ abstract: |
   pandoc -f markdown -t latex -N -V geometry:margin=1in  <location and name of file> --filter pandoc-citeproc --latex-engine=xelatex --toc -o <location and name of file>.pdf
 
 
-  \\newpage
+  \newpage
 ---
 
 Details about how the research objects held on [DARTPortal](http://dartportal.leeds.ac.uk) we're migrating to the Leeds Institutional repository.
 
-\\newpage
+\newpage
 
 # Background
 
@@ -82,9 +82,17 @@ As can be seen the structure is a bit of a hack that allows 1 to many relational
 * *documents.docid* and *documents.rowid* refer to research objects within the collection. 
 	* If there are 1-many relationships about the data then we maintain the same documents.docid and increment the documents.rowid 
 
-# Mapping between the DART schema and the Leeds Institutional Repository schema
+# Point 1 and 2 - Collection and folder physical preparation
 
-This has been started and is [documented online](https://docs.google.com/spreadsheets/d/1Zyx49aPpl8d1ud6TmQ6T-ohXq9LdlHPICkotE8MYh5E). However, it does require revision. I have just understoof the difference in the colour coding of the schema details given to me by Graham:
+This is done. Not a problem.
+
+# Point 3 - Metadata creation for ingest
+
+The backend CKAN system is not ammenable to direct SQL extract - and the OAI-PMH in the system doesn't do what we want it to do. Dave will create a python script that creates this metadata by parsing the collections and resources. Because we have a naming pattern this is fine (it basically repurposes the ingest system we used for CKAN and matches to the Leeds Schema)
+
+## Mapping between the DART schema and the Leeds Institutional Repository schema
+
+This has been started and is [documented online](https://docs.google.com/spreadsheets/d/1Zyx49aPpl8d1ud6TmQ6T-ohXq9LdlHPICkotE8MYh5E). However, it does require revision. I have just understood the difference in the colour coding of the schema details given to me by Graham:
 
 * Red - compound primary key
 * Green - Collection metadata
@@ -92,15 +100,48 @@ This has been started and is [documented online](https://docs.google.com/spreads
 
 (Forgive colour issues - I'm colour blind). This sheds a different light on things. For example different resources in our collection are collected at different dates. Hence our dates reflect differences at the resource level and not at the document level. 
 
-I need to think about this and review things - this will likely be in a week and a half (I'm on holiday next week)
+-------
 
-# Collection and folder physical preparation (points 1 and 2)
+The initial mapping was against the backend model (see column 'DART mapping (formal)'. However, as we couldn;t extract what we anted from this backend we have decided to go back to our ingest scripts. The DART ingest scripts worked as follows:
 
-This is done. Not a problem.
+* A folder contained data files and metadata files
+	* All data files had a naming convention (described below). Each data file is prefixed with the value DART_
+		* The elements in this convention supply some values for the object level metadata either directly or via lookup
+	* At least one file called *metadata.txt* that holds the collection level metadata
+	* Between 0 and many other metadata *txt* files with a name which matches an element in the naming convention
 
-# Metadata creation for ingest (point 3)
+The DART naming convention was:
 
-The backend CKAN system is not ammenable to direct SQL extract - and the OAI-PMH in the system doesn;t do what we want it to do. Dave will create a python script that creates this metadata by parsing the collections and resources. Because we have a naming pattern this is fine (it basically repurposes the ingest system we used for CKAN and matches to the Leeds Schema)
+> Where appropriate each resource has been named with the following pattern: DART_<3 character sensor/collection name>_<spatial location>_<StartDateTime YYYYMMDD with optional HHMM>_<endDateTime YYYYMMDD with optional HHMM>_<stage PRO or RAW to refer to processed or raw data>_<other stuff>.<suffix>. Hence, the file DART_T3P_DDCF_20110823_20130106_PRO.csv refers to DART data collected using the T3P Imko soil moisture probes at Diddington Clay Field between 23rd August 2011 and 6th January 2013 which has been processed and is available in a comma separated text format
+The ingest system works as follows:
+
+* iterates over the data files in the folder. For each data file
+	* Creates a metadata record based on the values in the file *metadata.txt*
+	* Splits the object filename based on '_'. It iterates over these elements and adds or overwrites values in the metadata record based on:
+		* Date values (start date or end date of collection)
+		* Matching metadata *txt* file
+			* For example if the name contains the value RAW then the code looks for a matching textfile called *RAW.txt*. If it finds this file then the values from this file are used to extend or overwrite the metadata values.
+
+This conceptually is closed to the approach taken at Leeds. We can use the values in the *metadata.txt* file to populate metadata values at the **collection** level. We can then use the values embedded in the field name or the values in the associated metadata *txt* files to populate metadata values at the **object** level.
+
+I have added in a new column 'DART ingestfile mapping' in the [DART metadata mapping](https://docs.google.com/spreadsheets/d/1Zyx49aPpl8d1ud6TmQ6T-ohXq9LdlHPICkotE8MYh5E/edit#gid=740656025) file to reflect this. 
+
+**One concern is the string length restrictions on schema values at Leeds (I have had no response to my query concerning which fields have > 250 characters). I suggest we do what we need to and then this is truncated by the Leeds team.**
+
+## Thoughts on the Leeds repository structure
+
+The character restriction on fields may be too conservative. It wodl be helpful if the data model was published.
+
+The object level metadata for the Leeds schema is sparse: greater emphasis is given to the collection. In the short-medium term that may reflect the nature of the data (i.e. everyone zips up their stuff and dumps it in the e-prints repository). In the longer term that may be a problem - especially if their are DART like projects. 
+
+### Enriching the date elements at the object level
+
+For the physical sciences in particular data may well be segmented into collection periods. Hence for longitudinal projects there may be many datasets within a collection which reflect the same sensor (or mode of collection for a survey) which are collected on different dates or over different durations. I would suggest date level metadata is added at the *Object level*.
+
+### Enriching the 'creator' elements at the object level
+
+I would expect RCUK to add career enhancement incentives for data deposition. This means that 'well cited' data sets (hopefully representing *gold standard* data) may be pivotal for career progression. There is no granularity at the object level in this schema to identified who created the object resource. One simply can not assume it is the same as the *collection*. I would consider adding more fields here.
+
 
 # What to do about the richer metadata held in DART
 
