@@ -110,9 +110,25 @@ The initial mapping was against the backend model (see column 'DART mapping (for
 	* At least one file called *metadata.txt* that holds the collection level metadata
 	* Between 0 and many other metadata *txt* files with a name which matches an element in the naming convention
 
-The DART naming convention was:
+Where appropriate each resource has been named with the following pattern: 
 
-> Where appropriate each resource has been named with the following pattern: DART\_\<3 character sensor/collection name\>\_\<spatial location\>\_\<StartDateTime YYYYMMDD with optional HHMM\>\_\<endDateTime YYYYMMDD with optional HHMM\>\_\<stage PRO or RAW to refer to processed or raw data\>\_\<other stuff\>.\<suffix\>. Hence, the file DART\_T3P\_DDCF\_20110823\_20130106\_PRO.csv refers to DART data collected using the T3P Imko soil moisture probes at Diddington Clay Field between 23rd August 2011 and 6th January 2013 which has been processed and is available in a comma separated text format.
+* DART
+* '_'
+* 3 character sensor/collection name
+* '_'
+* spatial location - 4 characters
+* '_'
+* StartDateTime YYYYMMDD with optional HHMM
+* '_'
+* endDateTime YYYYMMDD with optional HHMM
+* '_'
+* stage PRO or RAW to refer to processed or raw data
+* '_'
+* other stuff - anything else of value
+* '.'
+* suffix
+
+Hence, the file DART\_T3P\_DDCF\_20110823\_20130106\_PRO.csv refers to DART data collected using the T3P Imko soil moisture probes at Diddington Clay Field between 23rd August 2011 and 6th January 2013 which has been processed and is available in a comma separated text format.
 
 The ingest system works as follows:
 
