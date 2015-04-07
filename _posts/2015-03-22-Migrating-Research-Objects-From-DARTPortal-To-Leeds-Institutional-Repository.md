@@ -22,7 +22,7 @@ abstract: |
 
 Details about how the research objects held on [DARTPortal](http://dartportal.leeds.ac.uk) we're migrating to the Leeds Institutional repository.
 
-\newpage
+\\newpage
 
 # Background
 
