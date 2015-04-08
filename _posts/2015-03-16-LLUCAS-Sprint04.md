@@ -21,8 +21,8 @@ Sprint Objectives:
 * Get in touch with Data Analytics people
 	* Didier - meeting arranged
 	* [ADAC](http://www.nottingham.ac.uk/adac/index.aspx)
-		* Specifically [John Garibaldi - prof in Informatics](http://ima.ac.uk/garibaldi) - who does semantic reasoning and decision support :-)
-	* [James Goulding](http://www.nottingham.ac.uk/~psxjog/index.html) 
+		* Specifically [John Garibaldi - prof in Informatics](http://ima.ac.uk/garibaldi) - jon.garibaldi@nottingham.ac.uk - who does semantic reasoning and decision support :-)
+	* [James Goulding](http://www.nottingham.ac.uk/~psxjog/index.html) - james.goulding@nottingham.ac.uk
 * Arrange meetings with the other teams
 	* Develop a data requirements/needs document that will act as a template across all the projects
 * GitHub blogging with Jekyll
@@ -112,3 +112,39 @@ Darren: [Jo’s details are here](https://www.linkedin.com/profile/view?id=29813
 Best wishes and I hope the alpacas are thriving ;-)
 
 Ant
+
+## Get in touch with Data Analytics people
+
+Data analytics at Nottingham
+
+Dear John  and James,
+
+My name is Anthony Beck I am a recently appointed part-time Research Fellow on the [Leverhulme Trust](http://www.leverhulme.ac.uk/) funded project [Sustaining Urban Habitats - an interdisciplinary approach](http://www.nottingham.ac.uk/research/groups/environmental-physics-and-design/leverhulme-project.aspx) led by [Prof Darren Robinson](http://www.nottingham.ac.uk/engineering/departments/abe/people/darren.robinson). I started in February.
+
+I have been given your contact details by Chris Parry and Jeremy Morley . I am also working with Jeremy, who was my short-lived boss until last week, on re-building a spatial web-service for public exposure. 
+
+As part of the Leverhulme project we are planning on building a data repository and data processing environment (distinguishing between our archiving and metadata commitments and our data processing requirements). I have been in touch with Chris Parry and Christine Middleton in terms of the data repository components and am now looking at the data analysis environments. 
+
+I appreciate that this is a rapidly changing area - especially as RCUK and the funding councils guidance on data sharing leads to increased expectations in analysis (and therefore analytical platforms). To avoid re-inventing the wheel I would like to find out:
+
+* what analysis initiatives are ongoing in the university
+	* what frameworks are supported
+	* what aren't supported
+* what the university will allow me to expose on the web (can I, for example, public expose a postgres database or a triple store)
+* what are the infrastructure and cost issues
+* how these are managed (is there institutional management of server and analytics platforms or is this left to individual projects/researchers)
+* what the medium to long term data anlytics vision is for the university
+
+Would it be possible for you to point me in the direction of any supporting information. Alternatively it would be good to meet up with either of you (I appreciate you both have busy schedules). I work 3 days a week (Monday to Wednesday).
+
+I will follow this message up with a telephone call.
+
+Best wishes
+
+Ant
+
+My name is Anthony Beck I'm a Research Fellow on the LUCAS 
+	* Didier - meeting arranged
+	* [ADAC](http://www.nottingham.ac.uk/adac/index.aspx)
+		* Specifically [John Garibaldi - prof in Informatics](http://ima.ac.uk/garibaldi) - jon.garibaldi@nottingham.ac.uk - who does semantic reasoning and decision support :-)
+	* [James Goulding](http://www.nottingham.ac.uk/~psxjog/index.html) - james.goulding@nottingham.ac.uk
