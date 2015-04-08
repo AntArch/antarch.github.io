@@ -21,7 +21,7 @@ Sprint Objectives:
 * Get in touch with Data Analytics people
 	* Didier - meeting arranged
 	* [ADAC](http://www.nottingham.ac.uk/adac/index.aspx)
-		* Specifically [John Garibaldi - prof in Infoatics](http://ima.ac.uk/garibaldi) - who does semantic reasoning and decision support :-)
+		* Specifically [John Garibaldi - prof in Informatics](http://ima.ac.uk/garibaldi) - who does semantic reasoning and decision support :-)
 	* [James Goulding](http://www.nottingham.ac.uk/~psxjog/index.html) 
 * Arrange meetings with the other teams
 	* Develop a data requirements/needs document that will act as a template across all the projects
@@ -67,6 +67,16 @@ This sprint has the following sub-tasks:
 ## Repository presentation Darren
 
 Follow up meeting scheduled for Tuesday (or Wednesday)
+
+Darren tasked me to do some repository research for a ‘walled garden’ international project he is a theme leader on. He presented this last week.
+
+The presentation: http://antarch.github.io/presentations/20150331_Repository.html
+
+The text and images: http://antarch.github.io/Repository-Presentation
+
+A longer text version is available here: /home/arb/ownCloud/Nottingham/LUCAS/Outputs/20150331_RepositoryIEAproject
+
+
 
 ## Grant Brainstorm
 
