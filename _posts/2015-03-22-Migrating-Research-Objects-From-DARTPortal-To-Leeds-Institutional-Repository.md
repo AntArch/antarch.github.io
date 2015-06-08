@@ -64,9 +64,9 @@ eprintid|rowid|documents.docid|documents.rowid|title|identifier|doi|funders
 1|1_1||||||AHRC
 1|1_2||||||EPSRC
 1|1_3|1|1_0||||
-1|1_4|2|2_0||||
-1|1_5|3|3_0||||
-1|1_6|4|4_0||||
+1|1_4|1|1_1||||
+1|1_5|2|2_0||||
+1|1_6|3|3_0||||
 
 Unfortunately - I haven't been able to get Jekyll to render markdown tables properly.
 
